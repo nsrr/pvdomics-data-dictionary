@@ -1,0 +1,7 @@
+{
+  "id": "night_lpm",
+  "display_name": "f110: if o2 used at night, how much?",
+  "description": "",
+  "type": "choices",
+  "domain": "exertion_lpm_5"
+}

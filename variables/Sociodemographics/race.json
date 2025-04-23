@@ -1,0 +1,7 @@
+{
+  "id": "race",
+  "display_name": "race",
+  "description": "",
+  "type": "choices",
+  "domain": "race_6"
+}

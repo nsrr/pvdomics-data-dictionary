@@ -1,0 +1,6 @@
+{
+  "id": "tot_sleep_tm",
+  "display_name": "sleep study: total sleep time (min)",
+  "description": "",
+  "type": "numeric"
+}

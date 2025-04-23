@@ -1,0 +1,7 @@
+{
+  "id": "ph_med",
+  "display_name": "on ph medication",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

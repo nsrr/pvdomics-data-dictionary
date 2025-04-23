@@ -1,0 +1,17 @@
+[
+  {
+    "value": 1,
+    "display_name": "closed",
+    "description": ""
+  },
+  {
+    "value": 2,
+    "display_name": "not closed",
+    "description": ""
+  },
+  {
+    "value": 3,
+    "display_name": "unknown",
+    "description": ""
+  }
+]

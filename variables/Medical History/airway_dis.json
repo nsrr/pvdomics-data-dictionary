@@ -1,0 +1,7 @@
+{
+  "id": "airway_dis",
+  "display_name": "f103: history of reactive airway disease?",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

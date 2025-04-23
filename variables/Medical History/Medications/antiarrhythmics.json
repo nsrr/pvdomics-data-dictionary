@@ -1,0 +1,7 @@
+{
+  "id": "antiarrhythmics",
+  "display_name": "on antiarrhythmics",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "ph_era",
+  "display_name": "ph meds: endothelin receptor antagonists (eras)",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

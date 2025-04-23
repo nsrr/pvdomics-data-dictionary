@@ -1,0 +1,7 @@
+{
+  "id": "ph_ccb",
+  "display_name": "on ccb meds for ph",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

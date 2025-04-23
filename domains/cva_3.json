@@ -1,0 +1,17 @@
+[
+  {
+    "value": 1,
+    "display_name": "no",
+    "description": ""
+  },
+  {
+    "value": 2,
+    "display_name": "yes, with residual deficits",
+    "description": ""
+  },
+  {
+    "value": 3,
+    "display_name": "yes, with no residual deficits",
+    "description": ""
+  }
+]

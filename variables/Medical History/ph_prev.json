@@ -1,0 +1,7 @@
+{
+  "id": "ph_prev",
+  "display_name": "ph: diagnosed prior enrollment",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

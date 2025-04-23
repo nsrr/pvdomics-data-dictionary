@@ -1,0 +1,7 @@
+{
+  "id": "hypertension",
+  "display_name": "f103: history of hypertension",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

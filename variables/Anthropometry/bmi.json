@@ -1,0 +1,6 @@
+{
+  "id": "bmi",
+  "display_name": "bmi (kg/m2)",
+  "description": "",
+  "type": "numeric"
+}

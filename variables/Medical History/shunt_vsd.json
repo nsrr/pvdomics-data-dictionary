@@ -1,0 +1,7 @@
+{
+  "id": "shunt_vsd",
+  "display_name": "f103: ventricular septal defect (vsd)",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

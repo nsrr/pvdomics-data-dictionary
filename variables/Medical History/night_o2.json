@@ -1,0 +1,7 @@
+{
+  "id": "night_o2",
+  "display_name": "f110: is participant currently using o2 at night?",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

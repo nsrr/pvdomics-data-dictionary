@@ -1,0 +1,7 @@
+{
+  "id": "cardiac_med",
+  "display_name": "on cardiac medication",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

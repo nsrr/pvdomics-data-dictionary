@@ -1,0 +1,7 @@
+{
+  "id": "anticoagulants_doacs",
+  "display_name": "on anticoagulants - doacs",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

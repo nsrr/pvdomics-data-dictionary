@@ -1,0 +1,7 @@
+{
+  "id": "f_status",
+  "display_name": "final pvd status",
+  "description": "",
+  "type": "choices",
+  "domain": "f_status_3"
+}

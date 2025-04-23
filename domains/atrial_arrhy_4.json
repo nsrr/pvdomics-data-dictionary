@@ -1,0 +1,22 @@
+[
+  {
+    "value": 1,
+    "display_name": "no",
+    "description": ""
+  },
+  {
+    "value": 2,
+    "display_name": "yes, current",
+    "description": ""
+  },
+  {
+    "value": 3,
+    "display_name": "yes, past",
+    "description": ""
+  },
+  {
+    "value": 4,
+    "display_name": "yes, current and past",
+    "description": ""
+  }
+]

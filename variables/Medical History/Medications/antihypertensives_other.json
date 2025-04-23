@@ -1,0 +1,7 @@
+{
+  "id": "antihypertensives_other",
+  "display_name": "on other htn",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

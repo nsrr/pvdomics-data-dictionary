@@ -1,0 +1,7 @@
+{
+  "id": "shunt_septostomy",
+  "display_name": "f103: atrial septostomy",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

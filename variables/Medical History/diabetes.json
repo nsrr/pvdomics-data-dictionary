@@ -1,0 +1,7 @@
+{
+  "id": "diabetes",
+  "display_name": "f103: history of diabetes (y/n)",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

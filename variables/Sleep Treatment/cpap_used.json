@@ -1,0 +1,7 @@
+{
+  "id": "cpap_used",
+  "display_name": "sleep study: used pap device",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

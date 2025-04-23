@@ -1,0 +1,7 @@
+{
+  "id": "mi",
+  "display_name": "f103: myocardial infarction (mi)?",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "ph_prost",
+  "display_name": "ph meds: prostanoids",
+  "description": "",
+  "type": "choices",
+  "domain": "airway_dis_2"
+}

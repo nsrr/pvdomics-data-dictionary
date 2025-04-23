@@ -1,0 +1,7 @@
+{
+  "id": "cva",
+  "display_name": "f103: cva (no, with / without residual deficit)?",
+  "description": "",
+  "type": "choices",
+  "domain": "cva_3"
+}
