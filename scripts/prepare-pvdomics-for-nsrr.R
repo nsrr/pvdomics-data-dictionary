@@ -41,7 +41,7 @@ df <- df |>
 df_h <- df|>
   select(alt_pid, age, female, race, hispanic, bmi, smoke, ahi_c, oahi_c, cai_c, odi3p, odi4p, tot_sleep_tm)|> #they also have age_sleep: age during sleep study 
   rename(nsrrid = alt_pid,
-         nsrr_ahi_hp3n = ahi_c,
+         nsrr_rei_hp3n = ahi_c,
          nsrr_oahi_hp3u = oahi_c,
          nsrr_cai = cai_c,
          nsrr_odi_dsge3 = odi3p,
@@ -68,7 +68,7 @@ df_h <- df|>
                                           0 ~ "no",
                                           1 ~ "yes"))|>
   select(-c(age, bmi, female, race, hispanic, smoke))|>
-  relocate(nsrr_ahi_hp3n, nsrr_oahi_hp3u, nsrr_cai,
+  relocate(nsrr_rei_hp3n, nsrr_oahi_hp3u, nsrr_cai,
            nsrr_odi_dsge3, nsrr_odi_dsge4, nsrr_tst_f1,
            .after = last_col())
 
