@@ -25,8 +25,10 @@ df <- read.csv(datapath) |>
 
 df <- df |>
   rename_with(tolower)|> 
-  mutate(across(where(is.character), ~na_if(., "")))|>
+  mutate(visit = 1,
+         across(where(is.character), ~na_if(., "")))|>
   relocate(alt_pid, .before = 1)|>
+  relocate(visit, .before = 2)|>
   arrange(alt_pid)
 
 
@@ -48,7 +50,7 @@ df_h <- df|>
          nsrr_odi_dsge3 = odi3p,
          nsrr_odi_dsge4 = odi4p,
          nsrr_tst_f1 = tot_sleep_tm)|>
-  mutate(visit = 1,
+  mutate(
          nsrr_age = age,
          nsrr_sex = case_match(female,
                                0 ~ "male",
@@ -62,7 +64,7 @@ df_h <- df|>
                                 6 ~ "multiple",
                                 9 ~ "not reported"),
          nsrr_ethnicity = case_match(hispanic,
-                                     0 ~ "not hispanic",
+                                     0 ~ "not hispanic or latino",
                                      1 ~ "hispanic or latino",
                                      NA ~ "not reported"),
          nsrr_bmi = bmi,
@@ -75,22 +77,23 @@ df_h <- df|>
            .after = last_col())
 
 
-df <- df |>
-  mutate(across(everything(), ~ ifelse(is.na(.), "", .)))
-write.csv(df, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-dataset-0.1.0.csv", row.names = F)
+# df <- df |>
+#   mutate(across(everything(), ~ ifelse(is.na(.), "", .)))
+write.csv(df, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-dataset-0.1.0.csv", row.names = F, na = "")
+
+# 
+# df_h <- df_h |>
+#   mutate(across(everything(), ~ ifelse(is.na(.), "", .)))
+write.csv(df_h, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-harmonized-dataset-0.1.0.csv", row.names = F, na = "")
 
 
-df_h <- df_h |>
-  mutate(across(everything(), ~ ifelse(is.na(.), "", .)))
-write.csv(df_h, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-harmonized-dataset-0.1.0.csv", row.names = F)
 
-
-
+###########
 ###creating a data dictionary for mapping integer vars
 df_lab <- read.csv("/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/original-data/nsrr_rel1_d04302024_v04152025.csv", header = T, skip = 1)
 names(df_lab) <- tolower(names(df_lab))
 
-df_chr     <- df     %>% mutate(across(-alt_pid, as.character))
+df_ch<- df %>% mutate(across(-alt_pid, as.character))
 df_lab_chr <- df_lab %>% mutate(across(-alt_pid, as.character))
 
 dict <- df_chr %>%
