@@ -1,7 +1,7 @@
 {
   "id": "ph_med",
-  "display_name": "on ph medication",
+  "display_name": "On Pulmonary Hypertension medication",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

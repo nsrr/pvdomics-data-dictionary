@@ -1,0 +1,7 @@
+{
+  "id": "nsrr_odi_dsge4",
+  "display_name": "Oxygen Desaturation Index (4%)",
+  "description": "Harmonized by the NSRR team. Source: :odi4p:",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

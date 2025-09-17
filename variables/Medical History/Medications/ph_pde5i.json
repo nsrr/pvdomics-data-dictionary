@@ -1,7 +1,7 @@
 {
   "id": "ph_pde5i",
-  "display_name": "ph med: pde5i",
+  "display_name": "On Phosphodiesterase Type 5 Inhibitors (PDE5i) for Pulmonary Hypertension ",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

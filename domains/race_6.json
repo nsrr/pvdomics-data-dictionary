@@ -1,31 +1,36 @@
 [
   {
-    "value": 1,
+    "value": "1",
     "display_name": "american indian/alaska native",
     "description": ""
   },
   {
-    "value": 2,
+    "value": "2",
     "display_name": "asian",
     "description": ""
   },
   {
-    "value": 3,
+    "value": "3",
+    "display_name": "native hawaiian or other pacific islander",
+    "description": ""
+  },
+  {
+    "value": "4",
     "display_name": "black or african american",
     "description": ""
   },
   {
-    "value": 4,
+    "value": "5",
     "display_name": "white",
     "description": ""
   },
   {
-    "value": 5,
+    "value": "6",
     "display_name": "more than one race",
     "description": ""
   },
   {
-    "value": 6,
+    "value": "9",
     "display_name": "unknown or not reported",
     "description": ""
   }

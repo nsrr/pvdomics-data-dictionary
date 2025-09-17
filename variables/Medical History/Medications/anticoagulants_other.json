@@ -1,7 +1,7 @@
 {
   "id": "anticoagulants_other",
-  "display_name": "on other anticoagulants",
+  "display_name": "On other anticoagulants",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

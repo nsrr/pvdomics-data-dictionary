@@ -1,6 +1,7 @@
 {
   "id": "cig_pack_yrs",
-  "display_name": "f105: cigarettes: packyrs smoked",
+  "display_name": "Pack-years of cigarettes smoked",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "pack years"
 }

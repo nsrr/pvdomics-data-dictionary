@@ -1,7 +1,7 @@
 {
   "id": "exertion_lpm",
-  "display_name": "f110: if o2 used at exertion, how much?",
+  "display_name": "If O2 used at exertion, how much?",
   "description": "",
   "type": "choices",
-  "domain": "exertion_lpm_5"
+  "domain": "o2_amount"
 }

@@ -1,7 +1,7 @@
 {
   "id": "tia",
-  "display_name": "f103: cerebrovascular/tia disease?",
+  "display_name": "History of  cerebrovascular/TIA disease",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

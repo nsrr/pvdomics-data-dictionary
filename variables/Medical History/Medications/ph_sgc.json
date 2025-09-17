@@ -1,7 +1,7 @@
 {
   "id": "ph_sgc",
-  "display_name": "ph med: soluble guanylate cyclase stimulator",
+  "display_name": "On Soluble Guanylate Cyclase Stimulator meds  for Pulmonary Hypertension ",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

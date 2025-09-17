@@ -1,0 +1,37 @@
+[
+  {
+    "value": "white",
+    "display_name": "white",
+    "description": ""
+  },
+  {
+    "value": "american indian or alaska native",
+    "display_name": "american indian or alaska native",
+    "description": ""
+  },
+  {
+    "value": "asian",
+    "display_name": "asian",
+    "description": ""
+  },
+  {
+    "value": "black or african american",
+    "display_name": "black or african american",
+    "description": ""
+  },
+  {
+    "value": "native hawaiian or other pacific islander",
+    "display_name": "native hawaiian or other pacific islander",
+    "description": ""
+  },
+  {
+    "value": "multiple",
+    "display_name": "multiple",
+    "description": ""
+  },
+  {
+    "value": "not reported",
+    "display_name": "not reported",
+    "description": ""
+  }
+]

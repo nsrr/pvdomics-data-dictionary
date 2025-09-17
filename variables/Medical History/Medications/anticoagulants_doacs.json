@@ -1,7 +1,7 @@
 {
   "id": "anticoagulants_doacs",
-  "display_name": "on anticoagulants - doacs",
+  "display_name": "On Direct-Acting Oral Anticoagulants (DOACs)",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

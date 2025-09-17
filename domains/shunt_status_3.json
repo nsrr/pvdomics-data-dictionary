@@ -1,16 +1,16 @@
 [
   {
-    "value": 1,
+    "value": "1",
     "display_name": "closed",
     "description": ""
   },
   {
-    "value": 2,
+    "value": "2",
     "display_name": "not closed",
     "description": ""
   },
   {
-    "value": 3,
+    "value": "9",
     "display_name": "unknown",
     "description": ""
   }

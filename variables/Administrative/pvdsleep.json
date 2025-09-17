@@ -1,6 +1,6 @@
 {
   "id": "pvdsleep",
-  "display_name": "sleep study: pvdomics or alternative",
+  "display_name": "Sleep study: PVDOMICS or Alternative",
   "description": "",
   "type": "choices",
   "domain": "pvdsleep_2"

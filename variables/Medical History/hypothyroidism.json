@@ -1,7 +1,7 @@
 {
   "id": "hypothyroidism",
-  "display_name": "f103: hypothyroidism?",
+  "display_name": "Hyperthyroidism",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

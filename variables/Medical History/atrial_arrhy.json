@@ -1,6 +1,6 @@
 {
   "id": "atrial_arrhy",
-  "display_name": "f103: history of atrial arrhythmia (no, past and/or current)",
+  "display_name": "History of atrial arrhythmia",
   "description": "",
   "type": "choices",
   "domain": "atrial_arrhy_4"

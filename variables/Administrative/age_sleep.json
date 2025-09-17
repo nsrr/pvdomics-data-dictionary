@@ -1,0 +1,7 @@
+{
+  "id": "age_sleep",
+  "display_name": "Age at the time of sleep study",
+  "description": "",
+  "type": "numeric",
+  "units": "years"
+}

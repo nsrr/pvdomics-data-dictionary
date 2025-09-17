@@ -1,6 +1,6 @@
 {
   "id": "shunt_status",
-  "display_name": "f103: if cardiac shunt, status of shunt",
+  "display_name": "If has history of cardiac shunt, current status of shunt",
   "description": "",
   "type": "choices",
   "domain": "shunt_status_3"

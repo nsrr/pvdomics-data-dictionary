@@ -1,26 +1,26 @@
 [
   {
-    "value": 1,
+    "value": "1",
     "display_name": "group 1",
     "description": ""
   },
   {
-    "value": 2,
+    "value": "2",
     "display_name": "group 2",
     "description": ""
   },
   {
-    "value": 3,
+    "value": "3",
     "display_name": "group 3",
     "description": ""
   },
   {
-    "value": 4,
+    "value": "4",
     "display_name": "group 4",
     "description": ""
   },
   {
-    "value": 5,
+    "value": "5",
     "display_name": "group 5",
     "description": ""
   }

@@ -1,12 +1,12 @@
 [
   {
-    "value": 1,
+    "value": "1",
     "display_name": "alternative sleep study",
     "description": ""
   },
   {
-    "value": 2,
-    "display_name": "pvdomics sleep study",
+    "value": "2",
+    "display_name": "PVDOMICS sleep study",
     "description": ""
   }
 ]

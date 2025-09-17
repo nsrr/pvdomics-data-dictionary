@@ -1,7 +1,7 @@
 {
   "id": "female",
-  "display_name": "female",
+  "display_name": "Female Sex",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

@@ -1,17 +1,17 @@
 [
   {
-    "value": 1,
+    "value": "1",
     "display_name": "healthy control",
     "description": ""
   },
   {
-    "value": 2,
+    "value": "2",
     "display_name": "comparator",
     "description": ""
   },
   {
-    "value": 3,
-    "display_name": "ph",
+    "value": "3",
+    "display_name": "pulmonary hypertension",
     "description": ""
   }
 ]

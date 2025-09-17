@@ -1,7 +1,8 @@
 {
   "id": "antiarrhythmics",
-  "display_name": "on antiarrhythmics",
+  "display_name": "On Antiarrhythmics",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1",
+  "calculation": "smoking"
 }

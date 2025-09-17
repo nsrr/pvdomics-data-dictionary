@@ -1,21 +1,21 @@
 [
   {
-    "value": 1,
+    "value": "0",
     "display_name": "no",
     "description": ""
   },
   {
-    "value": 2,
+    "value": "1",
     "display_name": "yes, current",
     "description": ""
   },
   {
-    "value": 3,
+    "value": "2",
     "display_name": "yes, past",
     "description": ""
   },
   {
-    "value": 4,
+    "value": "3",
     "display_name": "yes, current and past",
     "description": ""
   }

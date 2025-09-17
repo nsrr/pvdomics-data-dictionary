@@ -1,7 +1,7 @@
 {
   "id": "race",
-  "display_name": "race",
+  "display_name": "Race",
   "description": "",
   "type": "choices",
-  "domain": "race_6"
+  "domain": "race"
 }

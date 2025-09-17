@@ -1,7 +1,7 @@
 {
   "id": "ph_era",
-  "display_name": "ph meds: endothelin receptor antagonists (eras)",
+  "display_name": "On Endothelin Receptor Antagonists (ERAs) for Pulmonary Hypertension",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

@@ -1,7 +1,7 @@
 {
   "id": "hispanic",
-  "display_name": "hispanic ethnicity",
+  "display_name": "Hispanic Ethnicity",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

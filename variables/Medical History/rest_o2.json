@@ -1,7 +1,7 @@
 {
   "id": "rest_o2",
-  "display_name": "f110: is participant currently using o2 at rest?",
+  "display_name": "Is participant currently using O2 at rest?",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

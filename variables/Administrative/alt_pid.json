@@ -1,0 +1,6 @@
+{
+  "id": "alt_pid",
+  "display_name": "PVDOMICS subject identifier",
+  "description": "",
+  "type": "identifier"
+}

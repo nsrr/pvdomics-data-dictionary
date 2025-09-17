@@ -1,6 +1,6 @@
 {
   "id": "shunt_all",
-  "display_name": "history of shunt, status",
+  "display_name": "History and status of cardiac shunt",
   "description": "",
   "type": "choices",
   "domain": "shunt_all_4"

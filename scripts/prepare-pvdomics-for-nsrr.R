@@ -25,10 +25,12 @@ df <- read.csv(datapath) |>
 
 df <- df |>
   rename_with(tolower)|> 
-  mutate(across(where(is.character), ~na_if(., "")))|>
+  mutate(across(where(is.character), ~na_if(., "")),
+         across(everything(), ~ ifelse(is.na(.), "", .)))|>
   relocate(alt_pid, .before = 1)|>
   arrange(alt_pid)
 
+write.csv(df, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-dataset-0.1.0.csv", row.names = F)
 # unique(df$f_group)
 # sum(is.na(df$f_group))
 # #?? for 'f_group' there is a '.' category, should i change this to "0" or something else?
@@ -55,6 +57,7 @@ df_h <- df|>
          nsrr_race = case_match(race,
                                 1 ~ "american indian or alaska native",
                                 2 ~ "asian",
+                                3 ~ "native hawaiian or other pacific islander",
                                 4 ~ "black or african american",
                                 5 ~ "white",
                                 6 ~ "multiple",
@@ -72,4 +75,29 @@ df_h <- df|>
            nsrr_odi_dsge3, nsrr_odi_dsge4, nsrr_tst_f1,
            .after = last_col())
 
-write.csv(df_h, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-harmonized-dataset-0.1.0.csv")
+write.csv(df_h, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-harmonized-dataset-0.1.0.csv", row.names = F)
+
+
+###creating a data dictionary for mapping integer vars
+df_lab <- read.csv("/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/original-data/nsrr_rel1_d04302024_v04152025.csv", header = T, skip = 1)
+names(df_lab) <- tolower(names(df_lab))
+
+df_chr     <- df     %>% mutate(across(-alt_pid, as.character))
+df_lab_chr <- df_lab %>% mutate(across(-alt_pid, as.character))
+
+dict <- df_chr %>%
+  pivot_longer(-c(alt_pid,age, age_sleep, ahi_c, bmi, cai_c, cig_pack_yrs, hi_c, oahi_c, odi3p, odi4p, pctlt90_c, ph_age_diag, ph_yrs, tim_enr_quitcig, tot_sleep_tm),
+               names_to = "variable", values_to = "code_chr") %>%
+  full_join(
+    df_lab_chr %>%
+      pivot_longer(-c(alt_pid, pid, age, age_sleep, ahi_c, bmi, cai_c, cig_pack_yrs, hi_c, oahi_c, odi3p, odi4p, pctlt90_c, ph_age_diag, ph_yrs, tim_enr_quitcig, tot_sleep_tm),
+                   names_to = "variable", values_to = "label"),
+    by = c("alt_pid", "variable")
+  ) %>%
+  distinct(variable, code_chr, label) %>%
+  arrange(variable, suppressWarnings(as.numeric(code_chr)), code_chr)
+
+dict <- dict[1:224,]
+
+write.csv(dict, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/original-data/cat_vars_dict.csv", row.names = F)
+

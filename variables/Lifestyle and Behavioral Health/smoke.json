@@ -1,7 +1,8 @@
 {
   "id": "smoke",
-  "display_name": "f105: current or former cigarette smoker",
+  "display_name": "Current or former cigarette smoker",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1",
+  "calculation": "smoking"
 }

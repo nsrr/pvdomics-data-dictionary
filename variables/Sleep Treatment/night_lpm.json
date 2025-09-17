@@ -1,0 +1,7 @@
+{
+  "id": "night_lpm",
+  "display_name": "If O2 used at night, how much?",
+  "description": "",
+  "type": "choices",
+  "domain": "o2_amount"
+}

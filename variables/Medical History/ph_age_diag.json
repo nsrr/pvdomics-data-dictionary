@@ -1,6 +1,7 @@
 {
   "id": "ph_age_diag",
-  "display_name": "f102: age at diagnosis (yrs)",
+  "display_name": "Age at Pulmonary Hypertension (PH) diagnosis",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "years"
 }

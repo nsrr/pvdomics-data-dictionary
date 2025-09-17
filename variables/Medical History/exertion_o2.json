@@ -1,7 +1,7 @@
 {
   "id": "exertion_o2",
-  "display_name": "f110: is participant currently using o2 on exertion?",
+  "display_name": "Is participant currently using O2 on exertion?",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

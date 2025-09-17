@@ -1,7 +1,7 @@
 {
   "id": "c_ohs",
-  "display_name": "f102: group 3 comp: obesity hypoventilation syndrome (ohs)",
+  "display_name": "Group 3 Comp: Obesity Hypoventilation Syndrome (OHS)",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

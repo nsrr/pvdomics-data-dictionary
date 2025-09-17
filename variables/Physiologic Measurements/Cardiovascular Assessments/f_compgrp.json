@@ -1,7 +1,7 @@
 {
   "id": "f_compgrp",
-  "display_name": "final comparator group (with mixed details)",
+  "display_name": "Final comparator group (with mixed details)",
   "description": "",
   "type": "choices",
-  "domain": "f_compgrp_17"
+  "domain": "f_compgrp"
 }

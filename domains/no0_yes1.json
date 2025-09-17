@@ -1,11 +1,11 @@
 [
   {
-    "value": 1,
+    "value": "0",
     "display_name": "no",
     "description": ""
   },
   {
-    "value": 2,
+    "value": "1",
     "display_name": "yes",
     "description": ""
   }

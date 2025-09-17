@@ -1,6 +1,8 @@
 {
   "id": "tim_enr_quitcig",
-  "display_name": "f105: cigarettes: years between enrollment and quitting",
+  "display_name": "Years between enrollment and quitting smoking",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "years",
+  "calculation": "smoking"
 }

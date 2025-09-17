@@ -1,7 +1,7 @@
 {
   "id": "cardiac_med",
-  "display_name": "on cardiac medication",
+  "display_name": "On Cardiac Medication",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

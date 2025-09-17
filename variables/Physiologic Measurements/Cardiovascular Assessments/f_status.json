@@ -1,6 +1,6 @@
 {
   "id": "f_status",
-  "display_name": "final pvd status",
+  "display_name": "Final Peripheral Vascular Disease",
   "description": "",
   "type": "choices",
   "domain": "f_status_3"

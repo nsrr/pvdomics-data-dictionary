@@ -1,7 +1,7 @@
 {
   "id": "shunt_asd",
-  "display_name": "f103: atrial septal defect (asd)",
+  "display_name": "History of atrial septal defect (ASD)",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

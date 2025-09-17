@@ -1,7 +1,0 @@
-{
-  "id": "o2_night",
-  "display_name": "sleep study: used o2 during the night",
-  "description": "",
-  "type": "choices",
-  "domain": "airway_dis_2"
-}

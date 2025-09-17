@@ -1,7 +1,7 @@
 {
   "id": "shunt_pfo",
-  "display_name": "f103: patent foramen ovale (pfo)",
+  "display_name": "History of Patent foramen ovale (PFO)",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

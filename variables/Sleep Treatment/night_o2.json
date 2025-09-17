@@ -1,0 +1,7 @@
+{
+  "id": "night_o2",
+  "display_name": "Is participant currently using O2 at night ?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

@@ -1,7 +1,7 @@
 {
   "id": "mi",
-  "display_name": "f103: myocardial infarction (mi)?",
+  "display_name": "History of myocardial infarction (MI)",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

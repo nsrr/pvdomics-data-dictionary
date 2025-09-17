@@ -1,0 +1,7 @@
+{
+  "id": "age",
+  "display_name": "Age at enrollment",
+  "description": "",
+  "type": "numeric",
+  "units": "years"
+}

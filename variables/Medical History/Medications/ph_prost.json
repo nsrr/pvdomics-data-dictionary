@@ -1,7 +1,7 @@
 {
   "id": "ph_prost",
-  "display_name": "ph meds: prostanoids",
+  "display_name": "On Prostanoids  for Pulmonary Hypertension ",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

@@ -1,0 +1,7 @@
+{
+  "id": "o2_night",
+  "display_name": "Sleep study: Used O2 during the night",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

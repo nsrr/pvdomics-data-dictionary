@@ -1,7 +1,7 @@
 {
   "id": "cardiac_shunt",
-  "display_name": "f103: history of a cardiac shunt?",
+  "display_name": "History of cardiac shunt",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }

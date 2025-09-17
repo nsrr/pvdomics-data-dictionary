@@ -1,7 +1,7 @@
 {
   "id": "depression_yn",
-  "display_name": "f103: history of clinically diagnosed depression (y/n)",
+  "display_name": "History  of clinically diagnosed depression",
   "description": "",
   "type": "choices",
-  "domain": "airway_dis_2"
+  "domain": "no0_yes1"
 }
