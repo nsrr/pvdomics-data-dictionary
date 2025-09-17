@@ -1,21 +1,21 @@
 [
   {
-    "value": "1",
+    "value": "0",
     "display_name": "no history of shunt",
     "description": ""
   },
   {
-    "value": "2",
+    "value": "1",
     "display_name": "history of shunt, closed",
     "description": ""
   },
   {
-    "value": "3",
+    "value": "2",
     "display_name": "history of shunt, not closed",
     "description": ""
   },
   {
-    "value": "4",
+    "value": "3",
     "display_name": "history of shunt, status unkown",
     "description": ""
   }

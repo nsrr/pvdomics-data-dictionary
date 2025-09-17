@@ -25,12 +25,11 @@ df <- read.csv(datapath) |>
 
 df <- df |>
   rename_with(tolower)|> 
-  mutate(across(where(is.character), ~na_if(., "")),
-         across(everything(), ~ ifelse(is.na(.), "", .)))|>
+  mutate(across(where(is.character), ~na_if(., "")))|>
   relocate(alt_pid, .before = 1)|>
   arrange(alt_pid)
 
-write.csv(df, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-dataset-0.1.0.csv", row.names = F)
+
 # unique(df$f_group)
 # sum(is.na(df$f_group))
 # #?? for 'f_group' there is a '.' category, should i change this to "0" or something else?
@@ -43,7 +42,7 @@ write.csv(df, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_r
 df_h <- df|>
   select(alt_pid, age, female, race, hispanic, bmi, smoke, ahi_c, oahi_c, cai_c, odi3p, odi4p, tot_sleep_tm)|> #they also have age_sleep: age during sleep study 
   rename(nsrrid = alt_pid,
-         nsrr_rei_hp3n = ahi_c,
+         nsrr_ahi_hp3u = ahi_c,
          nsrr_oahi_hp3u = oahi_c,
          nsrr_cai = cai_c,
          nsrr_odi_dsge3 = odi3p,
@@ -71,11 +70,20 @@ df_h <- df|>
                                           0 ~ "no",
                                           1 ~ "yes"))|>
   select(-c(age, bmi, female, race, hispanic, smoke))|>
-  relocate(nsrr_rei_hp3n, nsrr_oahi_hp3u, nsrr_cai,
+  relocate(nsrr_ahi_hp3u, nsrr_oahi_hp3u, nsrr_cai,
            nsrr_odi_dsge3, nsrr_odi_dsge4, nsrr_tst_f1,
            .after = last_col())
 
+
+df <- df |>
+  mutate(across(everything(), ~ ifelse(is.na(.), "", .)))
+write.csv(df, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-dataset-0.1.0.csv", row.names = F)
+
+
+df_h <- df_h |>
+  mutate(across(everything(), ~ ifelse(is.na(.), "", .)))
 write.csv(df_h, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-harmonized-dataset-0.1.0.csv", row.names = F)
+
 
 
 ###creating a data dictionary for mapping integer vars
