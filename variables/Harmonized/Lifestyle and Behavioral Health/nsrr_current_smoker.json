@@ -6,5 +6,6 @@
   "domain": "nsrr_smoke",
   "labels": [
     "smoking"
-  ]
+  ],
+  "commonly_used": true
 }

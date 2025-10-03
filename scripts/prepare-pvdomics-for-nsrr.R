@@ -1,7 +1,7 @@
-ver="0.1.0"
+version <- "0.1.0.pre3"
+releasepath <- "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases"
 
 library(tidyverse)
-library(readxl)
 
 # selectedvars <- c(
 #   "GENDER","FEMALE","HISPANIC","RACE","BMI","FC","PH_PREV","F_STATUS",
@@ -29,7 +29,8 @@ df <- df |>
          across(where(is.character), ~na_if(., "")))|>
   relocate(alt_pid, .before = 1)|>
   relocate(visit, .before = 2)|>
-  arrange(alt_pid)
+  arrange(alt_pid) |>
+  filter(alt_pid != "GD5322") #delete one ID with outlier tst
 
 
 # unique(df$f_group)
@@ -42,7 +43,7 @@ df <- df |>
 
 ###NSRR Harmonized:c
 df_h <- df|>
-  select(alt_pid, age, female, race, hispanic, bmi, smoke, ahi_c, oahi_c, cai_c, odi3p, odi4p, tot_sleep_tm)|> #they also have age_sleep: age during sleep study 
+  select(alt_pid, visit, age, female, race, hispanic, bmi, smoke, ahi_c, oahi_c, cai_c, odi3p, odi4p, tot_sleep_tm)|> #they also have age_sleep: age during sleep study 
   rename(nsrrid = alt_pid,
          nsrr_ahi_hp3u = ahi_c,
          nsrr_oahi_hp3u = oahi_c,
@@ -76,15 +77,9 @@ df_h <- df|>
            nsrr_odi_dsge3, nsrr_odi_dsge4, nsrr_tst_f1,
            .after = last_col())
 
+write.csv(df, file.path(releasepath, paste0(version, "/pvdomics-dataset-", version, ".csv")), na = "", row.names = F)
+write.csv(df_h, file.path(releasepath, paste0(version, "/pvdomics-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
 
-# df <- df |>
-#   mutate(across(everything(), ~ ifelse(is.na(.), "", .)))
-write.csv(df, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-dataset-0.1.0.csv", row.names = F, na = "")
-
-# 
-# df_h <- df_h |>
-#   mutate(across(everything(), ~ ifelse(is.na(.), "", .)))
-write.csv(df_h, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases/0.1.0.pre/pvdomics-harmonized-dataset-0.1.0.csv", row.names = F, na = "")
 
 
 
@@ -96,7 +91,7 @@ names(df_lab) <- tolower(names(df_lab))
 df_ch<- df %>% mutate(across(-alt_pid, as.character))
 df_lab_chr <- df_lab %>% mutate(across(-alt_pid, as.character))
 
-dict <- df_chr %>%
+dict <- df_lab_chr %>%
   pivot_longer(-c(alt_pid,age, age_sleep, ahi_c, bmi, cai_c, cig_pack_yrs, hi_c, oahi_c, odi3p, odi4p, pctlt90_c, ph_age_diag, ph_yrs, tim_enr_quitcig, tot_sleep_tm),
                names_to = "variable", values_to = "code_chr") %>%
   full_join(
@@ -110,5 +105,5 @@ dict <- df_chr %>%
 
 dict <- dict[1:224,]
 
-write.csv(dict, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/original-data/cat_vars_dict.csv", row.names = F)
+#write.csv(dict, "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/original-data/cat_vars_dict.csv", row.names = F)
 

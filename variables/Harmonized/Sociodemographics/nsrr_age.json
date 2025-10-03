@@ -6,5 +6,6 @@
   "units": "years",
   "labels": [
     "age"
-  ]
+  ],
+  "commonly_used": true
 }

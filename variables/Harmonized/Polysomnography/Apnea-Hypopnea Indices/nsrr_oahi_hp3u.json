@@ -3,5 +3,6 @@
   "display_name": "Obstructive Apnea-Hypopnea Index : (Obstructive apneas + hypopneas with >= 3% oxygen desaturation) / hour of sleep ",
   "description": "Harmonized by the NSRR team. Source: :oahi_c:",
   "type": "numeric",
-  "units": "number of events per hour"
+  "units": "number of events per hour",
+  "commonly_used": true
 }

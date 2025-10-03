@@ -6,5 +6,6 @@
   "units": "kilograms per meter squared (kg/m2)",
   "labels": [
     "bmi"
-  ]
+  ],
+  "commonly_used": true
 }
