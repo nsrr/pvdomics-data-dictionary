@@ -1,7 +1,0 @@
-{
-  "id": "ahi_c",
-  "display_name": "Sleep: Apnea hypopnea index (ahi)",
-  "description": "",
-  "type": "numeric",
-  "units": "number of events per hour"
-}

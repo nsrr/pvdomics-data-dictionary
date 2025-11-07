@@ -1,7 +1,0 @@
-{
-  "id": "cai_c",
-  "display_name": "Sleep: Central apnea index (cai)",
-  "description": "",
-  "type": "numeric",
-  "units": "number of events per hour"
-}

@@ -4,5 +4,8 @@
   "description": "Harmonized by the NSRR team. Source: :odi3p:",
   "type": "numeric",
   "units": "number of events per hour",
+  "labels": [
+    "phrnumds_sp_dsge3_f1t3"
+  ],
   "commonly_used": true
 }

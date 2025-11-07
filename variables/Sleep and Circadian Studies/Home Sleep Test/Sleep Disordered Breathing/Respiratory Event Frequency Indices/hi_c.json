@@ -1,0 +1,10 @@
+{
+  "id": "hi_c",
+  "display_name": "Hypopnea Index: (Hypopneas with > 30% flow reduction and >= 3% oxygen desaturation) / hour of estimated sleep from type III home sleep apnea test",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "hi_hp3x3n_f1t3"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "oahi_c",
+  "display_name": "Obstructive Apnea-Hypopnea Index: (All obstructive apneas with no oxygen desaturation threshold used + hypopneas with > 30% flow reduction and >= 3% oxygen desaturation) / hour of estimated sleep from type III home sleep apnea test",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "oahi_oa0nhp3x3n_f1t3"
+  ]
+}

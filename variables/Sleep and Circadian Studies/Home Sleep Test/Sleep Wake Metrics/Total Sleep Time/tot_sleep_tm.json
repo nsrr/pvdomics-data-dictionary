@@ -1,0 +1,10 @@
+{
+  "id": "tot_sleep_tm",
+  "display_name": "Total estimated sleep duration: the interval between sleep onset time and lights on/out-bed time while the participant is asleep from type III home sleep apnea test",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)",
+  "labels": [
+    "ttldursp_f1t3"
+  ]
+}

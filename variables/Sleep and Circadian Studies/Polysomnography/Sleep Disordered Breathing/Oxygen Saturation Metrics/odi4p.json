@@ -1,7 +1,0 @@
-{
-  "id": "odi4p",
-  "display_name": "Sleep: Oxygen desaturation index 4% (odi) (events/hour)",
-  "description": "",
-  "type": "numeric",
-  "units": "number of events per hour"
-}

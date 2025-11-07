@@ -1,7 +1,0 @@
-{
-  "id": "oahi_c",
-  "display_name": "Sleep: Obstructive apnea hypopnea index (oahi)",
-  "description": "",
-  "type": "numeric",
-  "units": "number of events per hour"
-}

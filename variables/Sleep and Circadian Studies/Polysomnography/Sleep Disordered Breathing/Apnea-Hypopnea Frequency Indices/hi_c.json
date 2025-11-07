@@ -1,7 +1,0 @@
-{
-  "id": "hi_c",
-  "display_name": "Sleep study: Hypopnea index",
-  "description": "",
-  "type": "numeric",
-  "units": "number of events per hour"
-}

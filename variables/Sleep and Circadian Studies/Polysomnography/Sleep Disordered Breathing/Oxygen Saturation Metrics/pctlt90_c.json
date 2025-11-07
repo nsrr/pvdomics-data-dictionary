@@ -1,7 +1,0 @@
-{
-  "id": "pctlt90_c",
-  "display_name": "Sleep: Percentage of recording time <90% o2 saturation",
-  "description": "",
-  "type": "numeric",
-  "units": "percent (%)"
-}
