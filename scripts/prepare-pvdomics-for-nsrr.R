@@ -41,16 +41,16 @@ df <- df |>
 # setdiff(colnames(df), unlist(selectedvars))
 
 
-###NSRR Harmonized:c
+###NSRR Harmonized:
 df_h <- df|>
   select(alt_pid, visit, age, female, race, hispanic, bmi, smoke, ahi_c, oahi_c, cai_c, odi3p, odi4p, tot_sleep_tm)|> #they also have age_sleep: age during sleep study 
   rename(nsrrid = alt_pid,
-         nsrr_ahi_hp3u = ahi_c,
-         nsrr_oahi_hp3u = oahi_c,
-         nsrr_cai = cai_c,
+         nsrr_rei_hp3n = ahi_c,
+         #nsrr_oahi_hp3u = oahi_c,
+         #nsrr_cai = cai_c,
          nsrr_odi_dsge3 = odi3p,
-         nsrr_odi_dsge4 = odi4p,
-         nsrr_tst_f1 = tot_sleep_tm)|>
+         nsrr_odi_dsge4 = odi4p) |>
+         #nsrr_tst_f1 = tot_sleep_tm)|>
   mutate(
          nsrr_age = age,
          nsrr_sex = case_match(female,
@@ -73,8 +73,7 @@ df_h <- df|>
                                           0 ~ "no",
                                           1 ~ "yes"))|>
   select(-c(age, bmi, female, race, hispanic, smoke))|>
-  relocate(nsrr_ahi_hp3u, nsrr_oahi_hp3u, nsrr_cai,
-           nsrr_odi_dsge3, nsrr_odi_dsge4, nsrr_tst_f1,
+  relocate(nsrr_rei_hp3n,nsrr_odi_dsge3, nsrr_odi_dsge4, 
            .after = last_col())
 
 write.csv(df, file.path(releasepath, paste0(version, "/pvdomics-dataset-", version, ".csv")), na = "", row.names = F)
