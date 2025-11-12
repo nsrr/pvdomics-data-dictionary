@@ -43,7 +43,7 @@ df <- df |>
 
 ###NSRR Harmonized:
 df_h <- df|>
-  select(alt_pid, visit, age, female, race, hispanic, bmi, smoke, ahi_c, oahi_c, cai_c, odi3p, odi4p, tot_sleep_tm)|> #they also have age_sleep: age during sleep study 
+  select(alt_pid, visit, age, female, race, hispanic, bmi, smoke, ahi_c, odi3p, odi4p)|> #they also have age_sleep: age during sleep study 
   rename(nsrrid = alt_pid,
          nsrr_rei_hp3n = ahi_c,
          #nsrr_oahi_hp3u = oahi_c,
