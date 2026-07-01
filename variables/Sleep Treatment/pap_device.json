@@ -1,0 +1,7 @@
+{
+  "id": "pap_device",
+  "display_name": "Does participant wear a positive airway pressure (PAP) device at night?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

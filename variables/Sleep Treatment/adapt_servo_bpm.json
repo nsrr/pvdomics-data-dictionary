@@ -1,0 +1,7 @@
+{
+  "id": "adapt_servo_bpm",
+  "display_name": "Back up rate for Adaptive-ServoVentilation device",
+  "description": "",
+  "type": "numeric",
+  "units": "breaths per minute"
+}

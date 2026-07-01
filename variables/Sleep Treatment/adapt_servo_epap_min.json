@@ -1,0 +1,7 @@
+{
+  "id": "adapt_servo_epap_min",
+  "display_name": "Minimum EPAP Pressure for AdapServVent device ",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "return_ques",
+  "display_name": "Did participant return completed sleep questionnaire?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

@@ -5,7 +5,7 @@
   "type": "choices",
   "domain": "nsrr_ethnicity",
   "labels": [
-    "ethnicity "
+    "ethnicity"
   ],
   "commonly_used": true
 }

@@ -1,0 +1,7 @@
+{
+  "id": "f156_pulse_lowest",
+  "display_name": "Lowest pulse rate (bpm)",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

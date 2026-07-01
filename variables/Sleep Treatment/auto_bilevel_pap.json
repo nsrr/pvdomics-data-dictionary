@@ -1,0 +1,7 @@
+{
+  "id": "auto_bilevel_pap",
+  "display_name": "Auto Bilevel PAP (autoBiPAP) device? ",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

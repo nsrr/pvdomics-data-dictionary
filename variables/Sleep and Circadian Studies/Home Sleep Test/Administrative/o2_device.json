@@ -1,0 +1,7 @@
+{
+  "id": "o2_device",
+  "display_name": "Type of O2 delivery device used ",
+  "description": "",
+  "type": "choices",
+  "domain": "device_type"
+}

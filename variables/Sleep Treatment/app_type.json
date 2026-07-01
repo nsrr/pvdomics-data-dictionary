@@ -1,0 +1,7 @@
+{
+  "id": "app_type",
+  "display_name": "What type of applicance used? ",
+  "description": "",
+  "type": "choices",
+  "domain": "app_type"
+}

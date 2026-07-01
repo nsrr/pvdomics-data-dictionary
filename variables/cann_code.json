@@ -1,0 +1,7 @@
+{
+  "id": "cann_code",
+  "display_name": "Signal quality code for cannula flow/pressure channel",
+  "description": "",
+  "type": "choices",
+  "domain": "sig_quality"
+}

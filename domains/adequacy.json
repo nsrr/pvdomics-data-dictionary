@@ -1,0 +1,12 @@
+[
+  {
+    "value": "1",
+    "display_name": "Study is adequate",
+    "description": ""
+  },
+  {
+    "value": "0",
+    "display_name": "Historical study is inadequate for the purposes of PVDOMICS study, a new sleep study is recommended",
+    "description": ""
+  }
+]

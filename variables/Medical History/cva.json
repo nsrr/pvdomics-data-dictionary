@@ -1,6 +1,6 @@
 {
   "id": "cva",
-  "display_name": "History of Cerebrovascular Accident (CVA) ",
+  "display_name": "History of Cerebrovascular Accident (CVA)",
   "description": "",
   "type": "choices",
   "domain": "cva_3"

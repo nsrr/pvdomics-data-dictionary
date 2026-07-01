@@ -1,0 +1,7 @@
+{
+  "id": "tim_diag_sleep",
+  "display_name": "Days from Pulmunary Hypertension (PH) Diagnosis to Sleep Study",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

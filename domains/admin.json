@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "Self-administered",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Administered in person",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Interview by phone",
+    "description": ""
+  }
+]

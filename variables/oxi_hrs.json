@@ -1,0 +1,7 @@
+{
+  "id": "oxi_hrs",
+  "display_name": "Usable signal hours from oximetry channel ",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "bilevel_epap_min",
+  "display_name": "Minimum EPAP Pressure for BiPAP device ",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

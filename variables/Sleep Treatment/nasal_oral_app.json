@@ -1,0 +1,7 @@
+{
+  "id": "nasal_oral_app",
+  "display_name": "Does the participant wear nasal/oral appliance?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

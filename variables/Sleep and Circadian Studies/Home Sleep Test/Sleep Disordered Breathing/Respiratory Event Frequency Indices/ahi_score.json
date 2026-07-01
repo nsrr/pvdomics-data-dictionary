@@ -1,0 +1,7 @@
+{
+  "id": "ahi_score",
+  "display_name": "Calculated Apnea-Hypopnea Index score",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

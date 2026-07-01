@@ -1,0 +1,7 @@
+{
+  "id": "f156_spo2_time_less85",
+  "display_name": "SpO2 time <85 (%)",
+  "description": "",
+  "type": "numeric",
+  "units": "percent (%)"
+}

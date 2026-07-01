@@ -1,0 +1,7 @@
+{
+  "id": "scored",
+  "display_name": "Was sleep data available and test able to be scored?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

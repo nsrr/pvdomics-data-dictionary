@@ -1,0 +1,7 @@
+{
+  "id": "f154_oth_ecg_findings",
+  "display_name": "Other urgent specific heart rate or ECG finding?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

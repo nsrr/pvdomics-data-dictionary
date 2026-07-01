@@ -1,0 +1,7 @@
+{
+  "id": "abd_code",
+  "display_name": "Signal quality code for abdominal chest belt channel",
+  "description": "",
+  "type": "choices",
+  "domain": "sig_quality"
+}

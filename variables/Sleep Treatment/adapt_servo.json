@@ -1,0 +1,7 @@
+{
+  "id": "adapt_servo",
+  "display_name": "Does participant wear an Adaptive-ServoVentilation (AdapServVent) device?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

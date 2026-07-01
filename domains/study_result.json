@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "Result is considered normal (0-4)",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Participant has mild sleep apnea (5-14)",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Participant has moderate sleep apnea (15-29)",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Participant has severe sleep apnea (>=30)",
+    "description": ""
+  }
+]

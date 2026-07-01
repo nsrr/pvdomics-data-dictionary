@@ -1,0 +1,7 @@
+{
+  "id": "sleep_quality",
+  "display_name": "Overall sleep study quality",
+  "description": "",
+  "type": "choices",
+  "domain": "quality"
+}

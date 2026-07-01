@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "At clinic visit",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Other clinic setting",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "At home",
+    "description": ""
+  }
+]

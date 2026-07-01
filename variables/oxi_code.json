@@ -1,0 +1,7 @@
+{
+  "id": "oxi_code",
+  "display_name": "Signal quality code for oximetry channel",
+  "description": "",
+  "type": "choices",
+  "domain": "sig_quality"
+}

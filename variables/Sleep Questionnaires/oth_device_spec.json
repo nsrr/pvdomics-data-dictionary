@@ -1,0 +1,6 @@
+{
+  "id": "oth_device_spec",
+  "display_name": "If you wore other prescribed sleeping device while sleeping, please specify",
+  "description": "",
+  "type": "text"
+}

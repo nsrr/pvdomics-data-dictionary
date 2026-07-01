@@ -1,0 +1,7 @@
+{
+  "id": "cann_hrs",
+  "display_name": "Usable signal hours from cannula flow/pressure channel ",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

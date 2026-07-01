@@ -1,0 +1,7 @@
+{
+  "id": "auto_bilevel_ipap_max",
+  "display_name": "Maximum IPAP Pressure for autoBiPAP device ",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

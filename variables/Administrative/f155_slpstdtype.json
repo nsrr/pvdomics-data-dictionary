@@ -1,0 +1,7 @@
+{
+  "id": "f155_slpstdtype",
+  "display_name": "Type of sleep study (historical or current clinical)",
+  "description": "",
+  "type": "choices",
+  "domain": "type2"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "bilevel_pap",
+  "display_name": "Does participant wear a Bilevel PAP (BiPAP) device? ",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

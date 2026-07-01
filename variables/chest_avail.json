@@ -1,0 +1,7 @@
+{
+  "id": "chest_avail",
+  "display_name": "Thoracic chest belt channel available?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

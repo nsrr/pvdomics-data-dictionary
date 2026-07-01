@@ -1,0 +1,7 @@
+{
+  "id": "chest_code",
+  "display_name": "Signal quality code for thoracic chest belt channel",
+  "description": "",
+  "type": "choices",
+  "domain": "sig_quality"
+}

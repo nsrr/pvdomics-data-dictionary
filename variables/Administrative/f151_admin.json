@@ -1,0 +1,7 @@
+{
+  "id": "f151_admin",
+  "display_name": "How was the questionnaire administered?",
+  "description": "",
+  "type": "choices",
+  "domain": "admin"
+}

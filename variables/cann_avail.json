@@ -1,0 +1,7 @@
+{
+  "id": "cann_avail",
+  "display_name": "Cannula flow/pressure channel available?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

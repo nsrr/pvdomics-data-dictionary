@@ -1,0 +1,7 @@
+{
+  "id": "auto_pap",
+  "display_name": "Does participant wear a Auto PAP (APAP) device? ",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

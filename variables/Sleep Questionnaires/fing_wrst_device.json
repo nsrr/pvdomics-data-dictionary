@@ -1,0 +1,7 @@
+{
+  "id": "fing_wrst_device",
+  "display_name": "Discomfort or fall off: Finger / wrist device?",
+  "description": "",
+  "type": "choices",
+  "domain": "disc_fall"
+}

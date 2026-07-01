@@ -1,0 +1,7 @@
+{
+  "id": "adapt_servo_ipap_max",
+  "display_name": "Maximum IPAP Pressure for AdapServVent device ",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

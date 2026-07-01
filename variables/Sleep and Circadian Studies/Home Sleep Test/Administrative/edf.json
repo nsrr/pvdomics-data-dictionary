@@ -1,0 +1,7 @@
+{
+  "id": "edf",
+  "display_name": "If not scored, was it due to EDF file got corrupted while downloading from device or during transmission?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

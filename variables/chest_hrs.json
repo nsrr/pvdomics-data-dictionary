@@ -1,0 +1,7 @@
+{
+  "id": "chest_hrs",
+  "display_name": "Usable signal hours from thoracic chest belt channel ",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

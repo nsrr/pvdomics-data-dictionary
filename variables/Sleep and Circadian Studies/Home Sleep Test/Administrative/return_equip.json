@@ -1,0 +1,7 @@
+{
+  "id": "return_equip",
+  "display_name": "Did participant return device and all device components?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

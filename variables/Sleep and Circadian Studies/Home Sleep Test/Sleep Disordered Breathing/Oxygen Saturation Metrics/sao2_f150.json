@@ -1,0 +1,7 @@
+{
+  "id": "sao2_f150",
+  "display_name": "Participant baseline SaO2 (%)",
+  "description": "",
+  "type": "numeric",
+  "units": "percent (%)"
+}

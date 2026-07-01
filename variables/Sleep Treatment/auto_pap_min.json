@@ -1,0 +1,7 @@
+{
+  "id": "auto_pap_min",
+  "display_name": "Minimum pressure for APAP device",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

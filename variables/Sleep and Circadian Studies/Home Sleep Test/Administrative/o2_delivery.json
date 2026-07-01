@@ -1,0 +1,7 @@
+{
+  "id": "o2_delivery",
+  "display_name": "Type of O2 delivery (1=Continuous, 2=Pulse)",
+  "description": "",
+  "type": "choices",
+  "domain": "delivery_type"
+}

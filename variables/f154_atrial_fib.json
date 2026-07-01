@@ -1,0 +1,7 @@
+{
+  "id": "f154_atrial_fib",
+  "display_name": "Sleep: Incidental Findings: Atrial fibrillation/atrial flutter with rate >150 bpm?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

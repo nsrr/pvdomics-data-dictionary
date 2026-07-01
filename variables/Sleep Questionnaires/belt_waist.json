@@ -1,0 +1,7 @@
+{
+  "id": "belt_waist",
+  "display_name": "Discomfort or fall off: Belt around your waist?",
+  "description": "",
+  "type": "choices",
+  "domain": "disc_fall"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "equip_fail",
+  "display_name": "If not scored, was it due to equipment failed during the test?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "oxi_avail",
+  "display_name": "Oximetry channel available?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "f151_oxygen",
+  "display_name": "While you were sleeping: Did you wear oxygen? ",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

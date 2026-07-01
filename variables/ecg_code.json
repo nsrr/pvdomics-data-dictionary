@@ -1,0 +1,7 @@
+{
+  "id": "ecg_code",
+  "display_name": "Signal quality code for ECG channel",
+  "description": "",
+  "type": "choices",
+  "domain": "sig_quality"
+}

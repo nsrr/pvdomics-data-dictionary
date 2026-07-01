@@ -1,6 +1,6 @@
 {
   "id": "pctlt90_c",
-  "display_name": "Percentage of recording time with < 90% oxygen saturation from type III home sleep apnea test ",
+  "display_name": "Percentage of recording time with < 90% oxygen saturation from type III home sleep apnea test",
   "description": "Sleep: Percentage of recording time <90% o2 saturation",
   "type": "numeric",
   "units": "percent (%)",

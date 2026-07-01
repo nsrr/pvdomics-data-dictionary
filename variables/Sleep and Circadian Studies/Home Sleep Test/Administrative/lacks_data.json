@@ -1,0 +1,7 @@
+{
+  "id": "lacks_data",
+  "display_name": "If not scored, was it due to Not enough data recorded?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

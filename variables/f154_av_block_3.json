@@ -1,0 +1,7 @@
+{
+  "id": "f154_av_block_3",
+  "display_name": " Third degree atrioventricular block?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

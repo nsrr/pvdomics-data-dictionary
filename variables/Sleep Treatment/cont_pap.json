@@ -1,0 +1,7 @@
+{
+  "id": "cont_pap",
+  "display_name": "Does participant wear a Continuous PAP (CPAP) device? ",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

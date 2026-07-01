@@ -1,0 +1,7 @@
+{
+  "id": "ecg_hrs",
+  "display_name": "Usable signal hours from ECG channel ",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

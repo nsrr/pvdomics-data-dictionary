@@ -1,0 +1,7 @@
+{
+  "id": "severity_score",
+  "display_name": "Calculated AHI score ",
+  "description": "",
+  "type": "choices",
+  "domain": "study_result"
+}

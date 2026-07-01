@@ -1,0 +1,7 @@
+{
+  "id": "f154_brady",
+  "display_name": "Marked bradycardia? (30 bpm for 6 seconds or greater)",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

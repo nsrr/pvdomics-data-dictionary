@@ -1,0 +1,7 @@
+{
+  "id": "pap_avail",
+  "display_name": "PAP therapy channel available? ",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

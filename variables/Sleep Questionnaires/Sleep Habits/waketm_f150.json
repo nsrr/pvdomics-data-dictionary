@@ -1,0 +1,9 @@
+{
+  "id": "waketm_f150",
+  "display_name": "What time does participant report waking up (on average) ",
+  "description": "",
+  "type": "time",
+  "labels": [
+    "sleep_timing"
+  ]
+}

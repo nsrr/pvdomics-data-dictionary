@@ -1,0 +1,7 @@
+{
+  "id": "ecg_pads",
+  "display_name": "Discomfort or fall off: Sticky ECG pads?",
+  "description": "",
+  "type": "choices",
+  "domain": "disc_fall"
+}

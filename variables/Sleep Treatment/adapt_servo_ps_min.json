@@ -1,0 +1,7 @@
+{
+  "id": "adapt_servo_ps_min",
+  "display_name": "Minimum pressure support for AdapSerVent device",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

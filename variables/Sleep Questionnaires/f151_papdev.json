@@ -1,0 +1,7 @@
+{
+  "id": "f151_papdev",
+  "display_name": "While you were sleeping: Did you wear PAP sleeping device?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

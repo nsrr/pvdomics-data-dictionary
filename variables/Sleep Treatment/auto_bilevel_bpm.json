@@ -1,0 +1,7 @@
+{
+  "id": "auto_bilevel_bpm",
+  "display_name": "Back up rate for Auto biPAP device",
+  "description": "",
+  "type": "numeric",
+  "units": "breaths per minute"
+}

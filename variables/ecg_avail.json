@@ -1,0 +1,7 @@
+{
+  "id": "ecg_avail",
+  "display_name": "ECG channel available?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

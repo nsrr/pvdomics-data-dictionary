@@ -1,0 +1,9 @@
+{
+  "id": "bedtm_f150",
+  "display_name": "What time does participant report going to bed (on average)",
+  "description": "",
+  "type": "time",
+  "labels": [
+    "sleep_timing"
+  ]
+}

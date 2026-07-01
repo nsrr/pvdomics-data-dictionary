@@ -1,0 +1,7 @@
+{
+  "id": "f156_totrec_tm",
+  "display_name": "Total recording time (total minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)"
+}

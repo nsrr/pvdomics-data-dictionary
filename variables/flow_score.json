@@ -1,0 +1,7 @@
+{
+  "id": "flow_score",
+  "display_name": "Flow  limitation score",
+  "description": "",
+  "type": "choices",
+  "domain": "sig_quality"
+}

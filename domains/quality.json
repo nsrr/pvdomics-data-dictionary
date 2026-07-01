@@ -1,0 +1,22 @@
+[
+  {
+    "value": "4",
+    "display_name": "Excellent. All channels are useable for > 4 hours but < 6 hours)",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Good. At least nasal/mask pressure, one band, and oximetry usable for > 4 hours",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Fair. Oximetry and either nasal/mask pressure or one band usable for > 3 hours",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Poor",
+    "description": ""
+  }
+]

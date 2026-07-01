@@ -1,0 +1,7 @@
+{
+  "id": "abd_avail",
+  "display_name": "Abdominal belt channel available?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

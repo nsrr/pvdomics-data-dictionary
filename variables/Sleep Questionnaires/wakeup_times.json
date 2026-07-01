@@ -1,0 +1,7 @@
+{
+  "id": "wakeup_times",
+  "display_name": "How many times did you wake up last night?",
+  "description": "",
+  "type": "numeric",
+  "units": "counts"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "instruct_min",
+  "display_name": "Number of minutes it took to instruct and demonstrate the sleep monitoring unit",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

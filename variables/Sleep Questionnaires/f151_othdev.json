@@ -1,0 +1,7 @@
+{
+  "id": "f151_othdev",
+  "display_name": "While you were sleeping: Did you wear other prescribed sleeping device?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

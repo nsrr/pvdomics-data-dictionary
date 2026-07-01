@@ -1,0 +1,6 @@
+{
+  "id": "app_type_other",
+  "display_name": "Specify if other appliance used?",
+  "description": "",
+  "type": "text"
+}

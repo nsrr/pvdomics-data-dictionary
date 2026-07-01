@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "Historical limited",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Historical full PSG",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Current clinical limited",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Current clinical full PSG",
+    "description": ""
+  }
+]

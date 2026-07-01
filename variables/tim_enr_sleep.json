@@ -1,0 +1,7 @@
+{
+  "id": "tim_enr_sleep",
+  "display_name": "Days from Enrollment to Sleep Study",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

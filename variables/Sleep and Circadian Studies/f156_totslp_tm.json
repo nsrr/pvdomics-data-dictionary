@@ -1,0 +1,7 @@
+{
+  "id": "f156_totslp_tm",
+  "display_name": "Total sleep time (total minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)"
+}

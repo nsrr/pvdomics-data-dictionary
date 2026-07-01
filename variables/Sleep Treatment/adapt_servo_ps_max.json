@@ -1,0 +1,7 @@
+{
+  "id": "adapt_servo_ps_max",
+  "display_name": "Maximum pressure support for AdapSerVent device",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

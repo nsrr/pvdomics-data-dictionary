@@ -1,0 +1,7 @@
+{
+  "id": "f151_setting",
+  "display_name": "Setting where the questionnaire was completed?",
+  "description": "",
+  "type": "choices",
+  "domain": "setting"
+}

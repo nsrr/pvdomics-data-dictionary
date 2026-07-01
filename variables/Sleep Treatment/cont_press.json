@@ -1,0 +1,7 @@
+{
+  "id": "cont_press",
+  "display_name": "CPAP pressure",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "batteries",
+  "display_name": "Were new AA batteries put in?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}

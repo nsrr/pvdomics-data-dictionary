@@ -1,0 +1,7 @@
+{
+  "id": "tube_nose",
+  "display_name": "Discomfort or fall off: Tubing in your nose?",
+  "description": "",
+  "type": "choices",
+  "domain": "disc_fall"
+}

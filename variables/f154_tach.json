@@ -1,0 +1,7 @@
+{
+  "id": "f154_tach",
+  "display_name": "Supraventricular tachycardia sustained for 30 seconds or greater with heart rate > 150 bpm?",
+  "description": "",
+  "type": "choices",
+  "domain": "no0_yes1"
+}
