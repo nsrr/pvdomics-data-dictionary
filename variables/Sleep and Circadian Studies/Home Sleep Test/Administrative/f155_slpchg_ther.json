@@ -3,5 +3,5 @@
   "display_name": "Does PVDOMICS study staff know if there has been a change in nighttime oxygen or sleep disorder therapy since this historical study was completed?",
   "description": "",
   "type": "choices",
-  "domain": "no0_yes1"
+  "domain": "f155_slpchg_ther"
 }

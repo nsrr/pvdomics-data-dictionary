@@ -1,12 +1,17 @@
 [
   {
     "value": "1",
-    "display_name": "nasal cannula",
+    "display_name": "Nasal cannula",
     "description": ""
   },
   {
     "value": "2",
-    "display_name": "mask",
+    "display_name": "Mask",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Reservoir cannula",
     "description": ""
   }
 ]

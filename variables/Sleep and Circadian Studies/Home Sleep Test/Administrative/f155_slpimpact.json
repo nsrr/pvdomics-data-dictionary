@@ -3,5 +3,5 @@
   "display_name": "Does center physician think there is a change in the participan's clinical condition that would impact results from the historical study?",
   "description": "",
   "type": "choices",
-  "domain": "no0_yes1"
+  "domain": "f155_slpimpact"
 }

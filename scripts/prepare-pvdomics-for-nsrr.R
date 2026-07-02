@@ -1,7 +1,7 @@
 version <- "0.1.0.pre5"
 releasepath <- "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases"
 
-library(tidyver)
+library(tidyverse)
 
 
 datapath <- "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/original-data/nsrr_rel1noft_d04302024_v04152025.csv"
@@ -17,8 +17,9 @@ df <- read.csv(datapath) |>
   mutate( # remove undefined values
     tot_sleep_tm = case_when( # remove total sleep time for PID 410204 (outlier total sleep time, no sleep report available)
       tot_sleep_tm == 4748 ~ NA,
-      TRUE ~ tot_sleep_tm))
+      TRUE ~ tot_sleep_tm)) 
 
+## for f151_othdev, f151_oxygen, f151_papdev -> recode 9 to NA 
 
 ###------- Adding release 2 variables to the main df: --------##
 
@@ -29,7 +30,7 @@ df2 <- read.csv(datapath2) |>
   rename("alt_pid" = "pidd") |>
   rename_with(tolower)
 
-df_joined <- full_join(df, df2, by = "alt_pid", suffix = c("", ".df2"))
+df_joined <- full_join(df, df2, by = "alt_pid", suffix = c("", ".df2")) 
 
 overlap_cols <- intersect(names(df), names(df2))
 overlap_cols <- setdiff(overlap_cols, "alt_pid")
@@ -39,7 +40,19 @@ for (col in overlap_cols) {
 }
 
 df_joined <- df_joined |>
-  select(-all_of(paste0(overlap_cols, ".df2")))
+  select(-all_of(paste0(overlap_cols, ".df2"))) |>
+  mutate(
+    across(
+      c(f151_othdev, f151_oxygen, f151_papdev),
+      ~ na_if(., 9)
+    )
+  ) |>
+  mutate(
+    across(
+      c(f151_othdev, f151_oxygen, f151_papdev),
+      ~ na_if(., 9))
+  ) |>
+  mutate(across(where(is.character), ~ na_if(str_trim(.x), ""))) 
 
 
 write.csv(df_joined, file.path(releasepath, paste0(version, "/pvdomics-dataset-", version, ".csv")), na = "", row.names = F)
@@ -84,5 +97,6 @@ df_h <- df|>
 write.csv(df_h, file.path(releasepath, paste0(version, "/pvdomics-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
 
 
+unique(df_joined$f_group)
 
 

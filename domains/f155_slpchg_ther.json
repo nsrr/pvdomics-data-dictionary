@@ -1,0 +1,17 @@
+[
+  {
+    "value": "0",
+    "display_name": "No (no change in nighttime oxygen or sleep disorder therapy since historical study completed)",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Yes (a change in nighttime oxygen or sleep disorder therapy was identified since historical study completed)",
+    "description": ""
+  },
+  {
+    "value": "9",
+    "display_name": "Unknown (unknown if any changes to therapy since historical study completed)",
+    "description": ""
+  }
+]

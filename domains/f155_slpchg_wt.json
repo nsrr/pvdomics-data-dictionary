@@ -1,0 +1,17 @@
+[
+  {
+    "value": "0",
+    "display_name": "No, participant reports no 10% change in weight since historical study completed",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Yes, participant reports that there was a weight gain of more than 10% since the historical study was completed",
+    "description": ""
+  },
+  {
+    "value": "9",
+    "display_name": "Unknown whether or not there was 10% weight gain or loss)",
+    "description": ""
+  }
+]

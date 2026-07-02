@@ -1,0 +1,12 @@
+[
+  {
+    "value": "0",
+    "display_name": "No, center physician does not believe there is a change in participant's clinical condition that would have an impact on historical study results",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Yes, center physician does believe there is a change in participant's clinical condition that impacts historical study results)",
+    "description": ""
+  }
+]
