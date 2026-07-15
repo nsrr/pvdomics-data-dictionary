@@ -2,5 +2,6 @@
   "id": "f153_scr_ontm",
   "display_name": "Time Scorer set lights on (24-hr clock) ",
   "description": "",
-  "type": "time"
+  "type": "time",
+  "units": "hh:mm"
 }

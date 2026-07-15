@@ -1,0 +1,10 @@
+{
+  "id": "f153_totrec_tm",
+  "display_name": "Total recording period for type III home sleep apnea test",
+  "description": "",
+  "type": "numeric",
+  "units": "hours",
+  "labels": [
+    "ttlprdrd_f1t3"
+  ]
+}

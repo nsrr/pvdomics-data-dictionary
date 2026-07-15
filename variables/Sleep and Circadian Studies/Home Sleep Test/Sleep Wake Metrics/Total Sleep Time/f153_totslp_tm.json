@@ -1,6 +1,7 @@
 {
   "id": "f153_totslp_tm",
-  "display_name": "Total participant sleep time (24-hour clock)",
+  "display_name": "Total estimated sleep duration from type III home sleep apnea test",
   "description": "",
-  "type": "time"
+  "type": "numeric",
+  "units": "hours"
 }

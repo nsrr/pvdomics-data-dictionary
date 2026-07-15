@@ -1,7 +1,8 @@
 {
   "id": "female",
-  "display_name": "Female Sex",
+  "display_name": "Participant's sex is female",
   "description": "",
   "type": "choices",
-  "domain": "no0_yes1"
+  "domain": "no0_yes1",
+  "commonly_used": true
 }

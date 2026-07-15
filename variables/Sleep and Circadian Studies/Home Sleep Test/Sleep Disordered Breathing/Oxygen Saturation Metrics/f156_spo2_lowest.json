@@ -1,7 +1,10 @@
 {
   "id": "f156_spo2_lowest",
-  "display_name": "Lowest SpO2 (%)",
+  "display_name": "Minimum oxygen saturation during sleep from type III home sleep apnea test",
   "description": "",
   "type": "numeric",
-  "units": "percent (%)"
+  "units": "percent (%)",
+  "labels": [
+    "minlvlsa_sp_f1t3"
+  ]
 }

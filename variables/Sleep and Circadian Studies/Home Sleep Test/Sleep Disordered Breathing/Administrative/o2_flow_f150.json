@@ -1,0 +1,7 @@
+{
+  "id": "o2_flow_f150",
+  "display_name": "Usual nighttime O2 flow ",
+  "description": "Average flow of supplemental oxygen",
+  "type": "numeric",
+  "units": "liters per minute (L/min)"
+}

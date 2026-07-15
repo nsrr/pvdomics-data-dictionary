@@ -1,7 +1,10 @@
 {
   "id": "f156_odi",
-  "display_name": "Oxygen Desaturation Index (ODI) ",
+  "display_name": "Oxygen Desaturation Index (ODI): number of oxygen desaturation greater than 0% per hour of estimated sleep from type III home sleep apnea test",
   "description": "",
   "type": "numeric",
-  "units": "number of events per hour"
+  "units": "number of events per hour",
+  "labels": [
+    "phrnumds_dsge0_f1t3"
+  ]
 }

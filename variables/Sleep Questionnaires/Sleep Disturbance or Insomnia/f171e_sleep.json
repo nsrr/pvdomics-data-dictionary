@@ -3,5 +3,9 @@
   "display_name": "Did your heart failure prevent you from living as you wanted during the past month (4 weeks) by making it difficult for you to sleep well at night? If so, now much did it prevent you?",
   "description": "",
   "type": "choices",
-  "domain": "f171e_sleep"
+  "domain": "f171e_sleep",
+  "labels": [
+    "insomnia",
+    "sleep_quality:sleep_satisfaction"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "severity_score",
-  "display_name": "Calculated AHI score ",
+  "display_name": "OSA severity categories based on calculated AHI score ",
   "description": "",
   "type": "choices",
   "domain": "study_result"

@@ -4,5 +4,7 @@
   "description": "",
   "type": "numeric",
   "units": "years",
-  "calculation": "smoking"
+  "labels": [
+    "smoking"
+  ]
 }

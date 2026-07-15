@@ -2,5 +2,6 @@
   "id": "slp_asleep_tm",
   "display_name": "What time did you fall asleep last night?",
   "description": "",
-  "type": "time"
+  "type": "time",
+  "units": "hh:mm"
 }

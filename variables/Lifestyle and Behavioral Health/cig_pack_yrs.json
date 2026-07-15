@@ -3,5 +3,8 @@
   "display_name": "Pack-years of cigarettes smoked",
   "description": "",
   "type": "numeric",
-  "units": "pack years"
+  "units": "pack years",
+  "labels": [
+    "smoking"
+  ]
 }

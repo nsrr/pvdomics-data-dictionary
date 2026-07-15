@@ -1,7 +1,10 @@
 {
   "id": "f153_event_ct",
-  "display_name": "Number of apnea and hypopnea events identified",
+  "display_name": "Total number of apnea and hypopnea events identified: Apneas with no oxygen desaturation threshold used and hypopneas with > 30% flow reduction and with >= 3% oxygen desaturation from type III home sleep apnea test",
   "description": "",
   "type": "numeric",
-  "units": "count"
+  "units": "count",
+  "labels": [
+    "ttlnumah_ap0nhp3x3n_f1t3"
+  ]
 }

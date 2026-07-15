@@ -1,0 +1,10 @@
+{
+  "id": "f156_desat_less90",
+  "display_name": "Total number of respiratory event when oxygen saturation is below 90% per hour of estimated sleep from type III home sleep apnea test",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "ttlnumsa_salt90_f1t3"
+  ]
+}

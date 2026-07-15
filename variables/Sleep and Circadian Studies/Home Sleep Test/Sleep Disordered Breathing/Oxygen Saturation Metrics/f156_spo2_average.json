@@ -1,7 +1,10 @@
 {
   "id": "f156_spo2_average",
-  "display_name": "Average SpO2 (%)",
+  "display_name": "Average oxygen saturation during sleep from type III home sleep apnea test",
   "description": "",
   "type": "numeric",
-  "units": "percent (%)"
+  "units": "percent (%)",
+  "labels": [
+    "avglvlsa_sp_f1t3"
+  ]
 }

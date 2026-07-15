@@ -1,6 +1,6 @@
 {
   "id": "outbed_times",
-  "display_name": " How many times did you get out of bed?",
+  "display_name": "How many times did you get out of bed?",
   "description": "",
   "type": "numeric",
   "units": "counts"

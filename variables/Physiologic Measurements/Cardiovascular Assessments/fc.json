@@ -1,0 +1,7 @@
+{
+  "id": "fc",
+  "display_name": "Functional class",
+  "description": "World Health Organization (WHO) Functional Classification used to measure the severity of Pulmonary Hypertension (PH) symptoms",
+  "type": "choices",
+  "domain": "fc_4"
+}

@@ -3,6 +3,7 @@
   "display_name": "What time does participant report going to bed (on average)",
   "description": "",
   "type": "time",
+  "units": "hh:mm",
   "labels": [
     "sleep_timing"
   ]

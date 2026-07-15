@@ -1,0 +1,10 @@
+{
+  "id": "f156_pulse_average",
+  "display_name": "Average pulse rate per hour of estimated sleep from type III home sleep apnea test",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)",
+  "labels": [
+    "avglvlhr_sp_f1t3"
+  ]
+}

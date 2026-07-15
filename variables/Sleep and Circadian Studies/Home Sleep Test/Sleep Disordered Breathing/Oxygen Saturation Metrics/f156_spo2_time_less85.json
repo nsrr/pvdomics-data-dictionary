@@ -1,7 +1,10 @@
 {
   "id": "f156_spo2_time_less85",
-  "display_name": "SpO2 time <85 (%)",
+  "display_name": "Percentage of sleep duration with <85% oxygen saturation from type III home sleep apnea test",
   "description": "",
   "type": "numeric",
-  "units": "percent (%)"
+  "units": "percent (%)",
+  "labels": [
+    "pctdursp_salt85_f1t3"
+  ]
 }

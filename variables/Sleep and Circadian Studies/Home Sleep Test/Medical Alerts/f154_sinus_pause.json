@@ -1,6 +1,6 @@
 {
   "id": "f154_sinus_pause",
-  "display_name": "Sleep: Incidental Findings: Sinus pauses >3 seconds?",
+  "display_name": "Incidental Findings: Sinus pauses >3 seconds?",
   "description": "",
   "type": "choices",
   "domain": "no0_yes1"

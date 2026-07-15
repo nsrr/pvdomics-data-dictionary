@@ -44,15 +44,32 @@ df_joined <- df_joined |>
   mutate(
     across(
       c(f151_othdev, f151_oxygen, f151_papdev),
-      ~ na_if(., 9)
-    )
-  ) |>
-  mutate(
+      ~ na_if(.x, 9) #recode 9 (missing) into NA
+    ),
     across(
-      c(f151_othdev, f151_oxygen, f151_papdev),
-      ~ na_if(., 9))
-  ) |>
-  mutate(across(where(is.character), ~ na_if(str_trim(.x), ""))) 
+      where(is.character),
+      ~ na_if(str_trim(.x), "")
+    ),
+    across(
+      c(f153_totslp_tm, f153_totrec_tm),
+      ~ as.numeric(str_extract(.x, "^[0-9]+")) +
+        as.numeric(str_extract(.x, "(?<=:)[0-9]+")) / 60
+    ),#convert hh:mm format into decimal hour duration
+    across(
+      c(
+        bedtm_f150,
+        waketm_f150,
+        slp_device_tm,
+        slp_bed_tm,
+        slp_asleep_tm,
+        slp_awake_tm,
+        f153_scr_offtm,
+        f153_scr_ontm
+      ),
+      hms::parse_hm
+    )
+  )# turn bedtm_f150, waketm_f150, slp_device_tm, slp_bed_tm, slp_asleep_tm and slp_awake_tm from character hh:mm format to an actual time format)
+         
 
 
 write.csv(df_joined, file.path(releasepath, paste0(version, "/pvdomics-dataset-", version, ".csv")), na = "", row.names = F)
@@ -61,20 +78,20 @@ write.csv(df_joined, file.path(releasepath, paste0(version, "/pvdomics-dataset-"
 
 ###NSRR Harmonized:
 df_h <- df|>
-  select(alt_pid, visit, age, female, race, hispanic, bmi, smoke, ahi_c, odi3p, odi4p)|> #they also have age_sleep: age during sleep study 
+  select(alt_pid, visit, age, female, race, hispanic, bmi, smoke, ahi_c, odi3p, odi4p, tot_sleep_tm)|> #they also have age_sleep: age during sleep study 
   rename(nsrrid = alt_pid,
          nsrr_rei_hp3n = ahi_c,
          #nsrr_oahi_hp3u = oahi_c,
          #nsrr_cai = cai_c,
          nsrr_odi_dsge3 = odi3p,
-         nsrr_odi_dsge4 = odi4p) |>
-         #nsrr_tst_f1 = tot_sleep_tm)|>
+         nsrr_odi_dsge4 = odi4p,
+         nsrr_tst_f1 = tot_sleep_tm) |>
   mutate(
          nsrr_age = age,
-         nsrr_sex = case_match(female,
+         nsrr_sex = recode_values(female,
                                0 ~ "male",
                                1 ~ "female"),
-         nsrr_race = case_match(race,
+         nsrr_race = recode_values(race,
                                 1 ~ "american indian or alaska native",
                                 2 ~ "asian",
                                 3 ~ "native hawaiian or other pacific islander",
@@ -82,16 +99,16 @@ df_h <- df|>
                                 5 ~ "white",
                                 6 ~ "multiple",
                                 9 ~ "not reported"),
-         nsrr_ethnicity = case_match(hispanic,
+         nsrr_ethnicity = recode_values(hispanic,
                                      0 ~ "not hispanic or latino",
                                      1 ~ "hispanic or latino",
                                      NA ~ "not reported"),
          nsrr_bmi = bmi,
-         nsrr_current_smoker = case_match(smoke,
+         nsrr_current_smoker = recode_values(smoke,
                                           0 ~ "no",
                                           1 ~ "yes"))|>
   select(-c(age, bmi, female, race, hispanic, smoke))|>
-  relocate(nsrr_rei_hp3n,nsrr_odi_dsge3, nsrr_odi_dsge4, 
+  relocate(nsrr_tst_f1, nsrr_rei_hp3n,nsrr_odi_dsge3, nsrr_odi_dsge4, 
            .after = last_col())
 
 write.csv(df_h, file.path(releasepath, paste0(version, "/pvdomics-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
@@ -100,3 +117,4 @@ write.csv(df_h, file.path(releasepath, paste0(version, "/pvdomics-harmonized-dat
 unique(df_joined$f_group)
 
 
+check <- df_joined |> select(tot_sleep_tm, f156_totslp_tm, f153_totslp_tm)

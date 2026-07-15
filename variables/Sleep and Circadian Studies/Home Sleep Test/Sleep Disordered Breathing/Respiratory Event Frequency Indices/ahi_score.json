@@ -3,5 +3,8 @@
   "display_name": "Calculated Apnea-Hypopnea Index score",
   "description": "",
   "type": "numeric",
-  "units": "number of events per hour"
+  "units": "number of events per hour",
+  "labels": [
+    "rei_ap0nhp3x3n_f1t3"
+  ]
 }

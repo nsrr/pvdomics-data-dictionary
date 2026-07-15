@@ -3,5 +3,6 @@
   "display_name": "Age at enrollment",
   "description": "",
   "type": "numeric",
-  "units": "years"
+  "units": "years",
+  "commonly_used": true
 }

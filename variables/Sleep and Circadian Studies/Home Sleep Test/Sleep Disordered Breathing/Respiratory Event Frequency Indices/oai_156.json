@@ -3,5 +3,8 @@
   "display_name": "Obstructive Apnea Index: All obstructive apneas with no oxygen desaturation threshold used / hour of estimated sleep from type III home sleep apnea test",
   "description": "",
   "type": "numeric",
-  "units": "number of events per hour"
+  "units": "number of events per hour",
+  "labels": [
+    "oai_oa0n_f1t3"
+  ]
 }

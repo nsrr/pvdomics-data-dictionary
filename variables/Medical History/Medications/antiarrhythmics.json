@@ -4,5 +4,7 @@
   "description": "",
   "type": "choices",
   "domain": "no0_yes1",
-  "calculation": "smoking"
+  "labels": [
+    "smoking"
+  ]
 }

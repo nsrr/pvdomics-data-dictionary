@@ -1,0 +1,10 @@
+{
+  "id": "f156_pulse_lowest",
+  "display_name": "Lowest pulse rate per hour of estimated sleep from type III home sleep apnea test",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)",
+  "labels": [
+    "minlvlhr_sp_f1t3"
+  ]
+}
