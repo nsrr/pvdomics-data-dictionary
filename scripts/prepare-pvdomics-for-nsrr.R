@@ -2,17 +2,14 @@ version <- "0.1.0.pre5"
 releasepath <- "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases"
 
 library(tidyverse)
-
+library(dplyr)
 
 datapath <- "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/original-data/nsrr_rel1noft_d04302024_v04152025.csv"
 
 df <- read.csv(datapath) |>
   select(-PID) |>  #deidentify, use alt_pid instead
   rename_with(tolower)|> 
-  mutate(visit = 1,
-         across(where(is.character), ~na_if(., "")))|>
   relocate(alt_pid, .before = 1)|>
-  relocate(visit, .before = 2)|>
   arrange(alt_pid) |>
   mutate( # remove undefined values
     tot_sleep_tm = case_when( # remove total sleep time for PID 410204 (outlier total sleep time, no sleep report available)
@@ -30,7 +27,10 @@ df2 <- read.csv(datapath2) |>
   rename("alt_pid" = "pidd") |>
   rename_with(tolower)
 
-df_joined <- full_join(df, df2, by = "alt_pid", suffix = c("", ".df2")) 
+df_joined <- full_join(df, df2, by = "alt_pid", suffix = c("", ".df2")) |>
+  mutate(visit = 1,
+         across(where(is.character), ~na_if(., "")))|>
+  relocate(visit, .before = 2)
 
 overlap_cols <- intersect(names(df), names(df2))
 overlap_cols <- setdiff(overlap_cols, "alt_pid")
@@ -77,7 +77,7 @@ write.csv(df_joined, file.path(releasepath, paste0(version, "/pvdomics-dataset-"
 
 
 ###NSRR Harmonized:
-df_h <- df|>
+df_h <- df_joined|>
   select(alt_pid, visit, age, female, race, hispanic, bmi, smoke, ahi_c, odi3p, odi4p, tot_sleep_tm)|> #they also have age_sleep: age during sleep study 
   rename(nsrrid = alt_pid,
          nsrr_rei_hp3n = ahi_c,

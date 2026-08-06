@@ -1,9 +1,11 @@
 slug: pvdomics
 visit: visit
-charts: []
+charts: 
+- chart: pvdsleep
+  title: PVDOMICS Study Type
 
 webservers:
   - name: production
     url: https://sleepdata.org
   - name: staging
-    url: https://epista01.dipr.partners.org/sleepdata.org
+    url: https://preview.sleepdata.org
