@@ -1,4 +1,4 @@
-version <- "0.1.0.pre5"
+version <- "0.1.0.pre6"
 releasepath <- "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/nsrr-prep/_releases"
 
 library(tidyverse)
@@ -23,6 +23,15 @@ df <- read.csv(datapath) |>
 datapath2 <- "/Volumes/bwh-sleepepi-nsrr-staging/20241025-pvdomics/original-data/rel2-20260609/PVD_NSRR_rel2_noft_d02052026_v05282026.csv"
 
 df2 <- read.csv(datapath2) |>
+  mutate( #switch am and pm for 2 IDS, changes approved by PVDOMICS team and made by NSRR data team
+    slp_bed_tm = case_when(
+      PID == "220052" ~ "21:00",
+      PID == "410182" ~ "00:00",
+      TRUE ~ slp_bed_tm),
+    slp_awake_tm = case_when(
+      PID == "220052" ~ "05:00",
+      PID == "410182" ~ "08:30",
+      TRUE ~ slp_awake_tm))|>
   select(-PID) |>  #deidentify, use alt_pid instead
   rename("alt_pid" = "pidd") |>
   rename_with(tolower)
@@ -67,8 +76,9 @@ df_joined <- df_joined |>
         f153_scr_ontm
       ),
       hms::parse_hm
-    )
-  )# turn bedtm_f150, waketm_f150, slp_device_tm, slp_bed_tm, slp_asleep_tm and slp_awake_tm from character hh:mm format to an actual time format)
+    )# turn bedtm_f150, waketm_f150, slp_device_tm, slp_bed_tm, slp_asleep_tm and slp_awake_tm from character hh:mm format to an actual time format)
+  ) |>
+  mutate()
          
 
 
