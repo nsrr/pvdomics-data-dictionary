@@ -1,7 +1,7 @@
 {
   "id": "f154_atrial_fib",
   "display_name": "Incidental Findings: Atrial fibrillation/atrial flutter with rate >150 bpm?",
-  "description": "",
+  "description": "Reported on PVDOMICS protocol sleep study form",
   "type": "choices",
   "domain": "no0_yes1"
 }

@@ -1,7 +1,7 @@
 {
   "id": "f156_slpstdtype",
   "display_name": "Type of sleep study (historical or current clinical, limited or full) ",
-  "description": "",
+  "description": "Reported on Alternative sleep study form",
   "type": "choices",
   "domain": "type4"
 }

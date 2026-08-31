@@ -1,0 +1,7 @@
+{
+  "id": "oahi_alt",
+  "display_name": "Obstructive Apnea-Hypopnea Index from the Alternative Study Protocol",
+  "description": "Directly transcribed from alternative sleep study report (:pvdslp: = 0), could be sourced from HSAT or PSG. Respiratory event scoring definitions may differ among source studies.",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

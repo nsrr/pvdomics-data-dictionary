@@ -1,7 +1,7 @@
 {
   "id": "f153_totrec_tm",
   "display_name": "Total recording period for type III home sleep apnea test",
-  "description": "",
+  "description": "Reported on PVDOMICS protocol sleep study form",
   "type": "numeric",
   "units": "hours",
   "labels": [

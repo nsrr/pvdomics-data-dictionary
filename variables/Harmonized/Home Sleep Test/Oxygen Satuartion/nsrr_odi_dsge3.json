@@ -1,7 +1,7 @@
 {
   "id": "nsrr_odi_dsge3",
   "display_name": "Oxygen Desaturation Index: Oxygen desaturation with >= 3% desat per hour of estimated sleep from home sleep apnea test",
-  "description": "Harmonized by the NSRR team. Source: :odi3p:",
+  "description": "Harmonized by the NSRR team. Source: :odi3p_pvd:",
   "type": "numeric",
   "units": "number of events per hour",
   "labels": [

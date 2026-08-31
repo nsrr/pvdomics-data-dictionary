@@ -1,7 +1,7 @@
 {
   "id": "f156_spo2_time_less90",
   "display_name": "Percentage of sleep duration with <90% oxygen saturation from type III home sleep apnea test",
-  "description": "",
+  "description": "Reported on Alternative sleep study form",
   "type": "numeric",
   "units": "percent (%)",
   "labels": [

@@ -1,10 +1,7 @@
 {
   "id": "pctlt90_c",
-  "display_name": "Percentage of recording time with < 90% oxygen saturation from type III home sleep apnea test",
-  "description": "Sleep: Percentage of recording time <90% o2 saturation",
+  "display_name": "Combined percentage of recording duration with < 90% oxygen saturation from either type III home sleep apnea test or type I polysomnography",
+  "description": "Legacy variable created by the PVDOMICS study team by combining the percentage of recording time with < 90% oxygen saturation (:pctlt90_pvd:) from the PVDOMICS core study protocol with similar variable from the alternative studies (:pctlt90_alt:) ",
   "type": "numeric",
-  "units": "percent (%)",
-  "labels": [
-    "pctdurrd_salt90_f1t3"
-  ]
+  "units": "percent (%)"
 }

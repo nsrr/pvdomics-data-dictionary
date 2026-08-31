@@ -1,7 +1,7 @@
 {
   "id": "f156_cent_apnea_even",
   "display_name": "Total number of central apnea events: All Central apneas with no oxygen desaturation threshold used from type III home sleep apnea test",
-  "description": "",
+  "description": "Reported on Alternative sleep study form",
   "type": "numeric",
   "units": "number of events",
   "labels": [

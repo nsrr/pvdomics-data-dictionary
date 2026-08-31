@@ -1,7 +1,7 @@
 {
   "id": "f156_adequacy",
   "display_name": "Based on the sleep data reviewed, what is the adequacy/quality of this historical study?",
-  "description": "",
+  "description": "Reported on Alternative sleep study form",
   "type": "choices",
   "domain": "adequacy"
 }

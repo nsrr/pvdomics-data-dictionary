@@ -1,7 +1,7 @@
 {
   "id": "f153_scr_ontm",
   "display_name": "Time Scorer set lights on (24-hr clock) ",
-  "description": "",
+  "description": "Reported on PVDOMICS protocol sleep study form",
   "type": "time",
   "units": "hh:mm"
 }

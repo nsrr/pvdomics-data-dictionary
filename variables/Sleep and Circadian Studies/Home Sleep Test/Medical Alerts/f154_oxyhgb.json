@@ -1,7 +1,7 @@
 {
   "id": "f154_oxyhgb",
   "display_name": "Oxyhemoglobin saturation during sleep <85% for greater than 10% of the estimated sleep time?",
-  "description": "",
+  "description": "Reported on PVDOMICS protocol sleep study form",
   "type": "choices",
   "domain": "no0_yes1"
 }

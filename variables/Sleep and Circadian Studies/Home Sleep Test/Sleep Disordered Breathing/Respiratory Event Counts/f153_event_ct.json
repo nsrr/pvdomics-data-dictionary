@@ -1,7 +1,7 @@
 {
   "id": "f153_event_ct",
   "display_name": "Total number of apnea and hypopnea events identified: Apneas with no oxygen desaturation threshold used and hypopneas with > 30% flow reduction and with >= 3% oxygen desaturation from type III home sleep apnea test",
-  "description": "",
+  "description": "Reported on PVDOMICS protocol sleep study form",
   "type": "numeric",
   "units": "count",
   "labels": [

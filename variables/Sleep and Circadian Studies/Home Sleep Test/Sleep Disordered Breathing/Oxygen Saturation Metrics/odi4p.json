@@ -1,7 +1,7 @@
 {
   "id": "odi4p",
   "display_name": "Oxygen Desaturation Index: Oxygen desaturation with >= 4% desat per hour of estimated sleep from type III home sleep apnea test",
-  "description": "",
+  "description": "PVDOMICS core study protocol only (:pvdslp: = 1)",
   "type": "numeric",
   "units": "number of events per hour",
   "labels": [

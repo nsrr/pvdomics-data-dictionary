@@ -1,7 +1,7 @@
 {
   "id": "f156_obst_apnea_even",
   "display_name": "Total number of obstructive apnea events: All obstructive apneas with no oxygen desaturation threshold used from type III home sleep apnea test",
-  "description": "",
+  "description": "Reported on Alternative sleep study form",
   "type": "numeric",
   "units": "number of events",
   "labels": [

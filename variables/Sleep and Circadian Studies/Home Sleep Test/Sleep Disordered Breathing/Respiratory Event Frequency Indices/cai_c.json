@@ -1,7 +1,7 @@
 {
   "id": "cai_c",
-  "display_name": "Central Apnea Index: (Central apneas with no oxygen desaturation threshold used) / hour of estimated sleep from type III home sleep apnea test",
-  "description": "",
+  "display_name": "Combined Central Apnea Index: (Central apneas with no oxygen desaturation threshold used) / hour of estimated sleep from either type III home sleep apnea test or type I polysomnography",
+  "description": "Legacy variable created by the PVDOMICS study team by combining the PVDOMICS Core protocol Central Apnea Index (:cai_pvd:) with the alternative study Central Apnea Index (:cai_alt:)",
   "type": "numeric",
   "units": "number of events per hour",
   "labels": [

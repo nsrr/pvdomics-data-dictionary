@@ -1,7 +1,7 @@
 {
   "id": "f154_oth_ecg_findings",
   "display_name": "Other urgent specific heart rate or ECG finding?",
-  "description": "",
+  "description": "Reported on PVDOMICS protocol sleep study form",
   "type": "choices",
   "domain": "no0_yes1"
 }

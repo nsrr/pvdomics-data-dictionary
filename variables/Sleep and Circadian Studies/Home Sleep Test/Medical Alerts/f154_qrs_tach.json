@@ -1,7 +1,7 @@
 {
   "id": "f154_qrs_tach",
   "display_name": "Wide QRS tachycardia? (>4 beats with rate >100 bpm)",
-  "description": "",
+  "description": "Reported on PVDOMICS protocol sleep study form",
   "type": "choices",
   "domain": "no0_yes1"
 }

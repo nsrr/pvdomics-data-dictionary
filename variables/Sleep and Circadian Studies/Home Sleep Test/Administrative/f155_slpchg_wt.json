@@ -1,7 +1,7 @@
 {
   "id": "f155_slpchg_wt",
   "display_name": "Does PVDOMICS study staff know if there has been a 10% change in weight since this historical study was completed?",
-  "description": "",
+  "description": "Reported on Alternative sleep study form",
   "type": "choices",
   "domain": "f155_slpchg_wt"
 }

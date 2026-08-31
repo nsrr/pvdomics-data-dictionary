@@ -1,7 +1,7 @@
 {
   "id": "f154_sinus_pause",
   "display_name": "Incidental Findings: Sinus pauses >3 seconds?",
-  "description": "",
+  "description": "Reported on PVDOMICS protocol sleep study form",
   "type": "choices",
   "domain": "no0_yes1"
 }

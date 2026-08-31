@@ -1,7 +1,7 @@
 {
   "id": "pvdsleep",
-  "display_name": "Sleep study: PVDOMICS or Alternative",
-  "description": "",
+  "display_name": "Was the sleep study a PVDOMICS-protocol study or an alternative sleep study ?",
+  "description": "PVDOMICS protocol sleep studies were conducted using NOX-T3 HSAT devices and scored following standardized rules. Metrics derived from PVDOMICS protocol studies are denoted with the \"_pvd\" suffix.<br><br>\nAlternative sleep studies were conducted outside the standardized PVDOMICS protocol and may differ in study type, acquisition procedures, and respiratory event scoring criteria. Metrics obtained from alternative studies are denoted with the \"_alt\" suffix.",
   "type": "choices",
   "domain": "pvdsleep_2"
 }

@@ -1,7 +1,7 @@
 {
   "id": "f156_totrec_tm",
   "display_name": "Total recording period for type III home sleep apnea test",
-  "description": "",
+  "description": "Reported on Alternative sleep study form",
   "type": "numeric",
   "units": "minutes (min)",
   "labels": [

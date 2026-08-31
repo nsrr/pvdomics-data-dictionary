@@ -1,7 +1,7 @@
 {
   "id": "f154_av_block_2",
   "display_name": "Second degree AV block Mobitz Type II, high grade AV block?",
-  "description": "",
+  "description": "Reported on PVDOMICS protocol sleep study form",
   "type": "choices",
   "domain": "no0_yes1"
 }

@@ -1,7 +1,7 @@
 {
   "id": "f156_study_result",
   "display_name": "If historical study is adequate, what is the result of this sleep study?",
-  "description": "",
+  "description": "Reported on Alternative sleep study form",
   "type": "choices",
   "domain": "study_result"
 }

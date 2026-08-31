@@ -1,7 +1,7 @@
 {
   "id": "f156_hypopnea_even",
   "display_name": "Total number of hypopneas: Hypopneas with > 30% flow reduction and >= 3% oxygen desaturation from type III home sleep test",
-  "description": "",
+  "description": "Reported on Alternative sleep study form",
   "type": "numeric",
   "units": "number of events",
   "labels": [
