@@ -1,7 +1,7 @@
 {
   "id": "ahi_alt",
   "display_name": "Respiratory Event Index or Apnea Hypopnea Index from the Alternative Study Protocol",
-  "description": "Directly transcribed from the alternative study sleep report (:pvdslp: = 0). The source study may have used HSAT or PSG. Respiratory event scoring definitions may vary across source studies.",
+  "description": "Directly transcribed from the alternative study sleep report (:pvdsleep: = 0). The source study may have used HSAT or PSG. Respiratory event scoring definitions may vary across source studies.",
   "type": "numeric",
   "units": "number of events per hour"
 }

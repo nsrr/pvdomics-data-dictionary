@@ -1,7 +1,7 @@
 {
   "id": "pctlt90_pvd",
   "display_name": "Percentage of recording duration with < 90% oxygen saturation from type III home sleep apnea test",
-  "description": "PVDOMICS core study protocol only (:pvdslp: = 1)",
+  "description": "PVDOMICS core study protocol only (:pvdsleep: = 1)",
   "type": "numeric",
   "units": "percent (%)",
   "labels": [

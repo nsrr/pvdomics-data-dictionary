@@ -1,7 +1,7 @@
 {
   "id": "odi3p_alt",
   "display_name": "Oxygen Desaturation Index from the Alternative Study Protocol: Oxygen desaturation with >= 3% desat per hour of estimated sleep from either type III home sleep apnea test or type I polysomnography",
-  "description": "Directly transcribed from alternative sleep study report (:pvdslp: = 0), could be sourced from HSAT or PSG. ",
+  "description": "Directly transcribed from alternative sleep study report (:pvdsleep: = 0), could be sourced from HSAT or PSG. ",
   "type": "numeric",
   "units": "number of events per hour"
 }

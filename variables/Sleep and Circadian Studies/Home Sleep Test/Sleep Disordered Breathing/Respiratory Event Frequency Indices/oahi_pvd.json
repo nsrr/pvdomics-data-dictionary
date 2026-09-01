@@ -1,7 +1,7 @@
 {
   "id": "oahi_pvd",
   "display_name": "Obstructive Apnea-Hypopnea Index: (Obstructive apneas with no oxygen desaturation threshold used + hypopneas with > 30% flow reduction and >= 3% oxygen desaturation) / hour of estimated sleep from type III home sleep apnea test",
-  "description": "PVDOMICS core study protocol only (:pvdslp: = 1)",
+  "description": "PVDOMICS core study protocol only (:pvdsleep: = 1)",
   "type": "numeric",
   "units": "number of events per hour",
   "labels": [

@@ -1,7 +1,7 @@
 {
   "id": "pctlt90_alt",
   "display_name": "Percentage of recording duration with < 90% oxygen saturation from the alternative study protocol",
-  "description": "Directly transcribed from alternative sleep study report (:pvdslp: = 0), could be sourced from HSAT or PSG",
+  "description": "Directly transcribed from alternative sleep study report (:pvdsleep: = 0), could be sourced from HSAT or PSG",
   "type": "numeric",
   "units": "percent (%)"
 }
