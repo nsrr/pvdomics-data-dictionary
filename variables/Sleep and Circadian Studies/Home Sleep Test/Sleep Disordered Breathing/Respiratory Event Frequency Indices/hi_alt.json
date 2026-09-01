@@ -2,5 +2,6 @@
   "id": "hi_alt",
   "display_name": "Hypopnea Index from the Alternative Study Protocol",
   "description": "Directly transcribed from the alternative-study sleep report (:pvdslp: = 0). The source study may have used HSAT or PSG. Hypopnea scoring definitions may differ among source studies.",
-  "type": null
+  "type": "numeric",
+  "units": "number of events per hour"
 }

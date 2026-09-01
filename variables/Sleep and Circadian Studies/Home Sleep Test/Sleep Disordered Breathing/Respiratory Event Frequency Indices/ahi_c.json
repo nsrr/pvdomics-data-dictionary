@@ -1,6 +1,6 @@
 {
-  "id": " ahi_c",
-  "display_name": "Combined variable of Respiratory Event Index or Apnea Hypopnea Index: (All apneas with no oxygen desaturation threshold used + hypopneas with > 30% flow reduction and with >= 3% oxygen desaturation) / hour of estimated sleep from either type III home sleep apnea test or type I polysomnography",
+  "id": "ahi_c",
+  "display_name": "Combined variable of Respiratory Event Index or Apnea Hypopnea Index from PVDOMICS protocol studies and alternative sleep studies ",
   "description": "Legacy variable created by the PVDOMICS study team by combining the Respiratory Event Index from the PVDOMICS core study protocol (:ahi_score:) with the Respiratory Event Index or Apnea-Hypopnea Index reported from the alternative studies (:ahi_alt:).",
   "type": "numeric",
   "units": "number of events per hour"

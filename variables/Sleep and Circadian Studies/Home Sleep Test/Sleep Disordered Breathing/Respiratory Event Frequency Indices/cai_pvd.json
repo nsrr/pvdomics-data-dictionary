@@ -1,5 +1,5 @@
 {
-  "id": "cai_pvd ",
+  "id": "cai_pvd",
   "display_name": "Central Apnea Index: (Central apneas with no oxygen desaturation threshold used) / hour of estimated sleep from type III home sleep apnea test",
   "description": "PVDOMICS core study protocol only",
   "type": "numeric",

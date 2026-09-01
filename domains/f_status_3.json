@@ -1,17 +1,17 @@
 [
   {
     "value": "1",
-    "display_name": "healthy control",
+    "display_name": "Healthy Controls",
     "description": ""
   },
   {
     "value": "2",
-    "display_name": "comparator",
+    "display_name": "Comparator Group for WSPH Group 1",
     "description": ""
   },
   {
     "value": "3",
-    "display_name": "pulmonary hypertension",
+    "display_name": "World Symposium on Pulmonary Hypertension (WSPH) Group 1",
     "description": ""
   }
 ]

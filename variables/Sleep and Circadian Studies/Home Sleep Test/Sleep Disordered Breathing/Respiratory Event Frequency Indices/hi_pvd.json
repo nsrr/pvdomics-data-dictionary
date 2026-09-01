@@ -1,5 +1,5 @@
 {
-  "id": "hi_pvd ",
+  "id": "hi_pvd",
   "display_name": "Hypopnea Index: (Hypopneas with > 30% flow reduction and >= 3% oxygen desaturation) / hour of estimated sleep from type III home sleep apnea test",
   "description": "PVDOMICS core study protocol only (:pvdslp: = 1)",
   "type": "numeric",
