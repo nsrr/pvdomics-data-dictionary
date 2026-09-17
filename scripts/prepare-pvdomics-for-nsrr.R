@@ -115,7 +115,8 @@ df_joined <- df_joined |>
   relocate(hi_pvd, hi_alt, .after = hi_c) |>
   relocate(oahi_pvd, oahi_alt, .after = oahi_c) |>
   relocate(pctlt90_pvd, pctlt90_alt, .after = pctlt90_c) |>
-  relocate(odi3p_pvd, odi3p_alt, .after = odi3p)
+  relocate(odi3p_pvd, odi3p_alt, .after = odi3p) |>
+  mutate(nsrr_file_prefix = alt_pid)
 #for variables  ahi_c
 # ahi_c - create a new ahi_alt variable that only takes the value of ahi_c for those with pvdslp = 0
 # cai_c, hi_c, oahi_c, pctlt90_c, odi3p create cai_pvd, cai_alt, hi_pvd, hi_alt etc for all these varaibles, where the _pvd variables take on the value of ahi_c for those with pvdslp = 1 and the _alt varibles take on the value of ahi_c for those with pvd_sleep = 0
@@ -126,7 +127,7 @@ write.csv(df_joined, file.path(releasepath, paste0(version, "/pvdomics-dataset-"
 ###-------Creating the harmonized dataset --------##
 ###NSRR Harmonized:
 df_h <- df_joined|>
-  select(alt_pid, visit, age, female, race, hispanic, bmi, smoke, ahi_score, oahi_pvd, odi3p_pvd, odi4p, f153_totslp_tm)|> #they also have age_sleep: age during sleep study 
+  select(alt_pid, visit, age, female, race, hispanic, bmi, smoke, ahi_score, oahi_pvd, odi3p_pvd, odi4p, f153_totslp_tm, nsrr_file_prefix)|> #they also have age_sleep: age during sleep study 
   rename(nsrrid = alt_pid,
          nsrr_rei_hp3n = ahi_score,
          #nsrr_oahi_hp3u = oahi_pvd,
@@ -157,7 +158,7 @@ df_h <- df_joined|>
                                           1 ~ "yes"), 
          nsrr_tst_f1 = nsrr_tst_f1 * 60)|>
   select(-c(age, bmi, female, race, hispanic, smoke))|>
-  relocate(nsrr_tst_f1, nsrr_rei_hp3n, nsrr_odi_dsge3, nsrr_odi_dsge4, 
+  relocate(nsrr_tst_f1, nsrr_rei_hp3n, nsrr_odi_dsge3, nsrr_odi_dsge4, nsrr_file_prefix,
            .after = last_col())
 
 write.csv(df_h, file.path(releasepath, paste0(version, "/pvdomics-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
