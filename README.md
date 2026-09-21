@@ -1,11 +1,11 @@
-PVDomics Data Dictionary
+PVDOMICS Data Dictionary
 ======================
 
 [![Build Status](https://app.travis-ci.com/nsrr/pvdomics-data-dictionary.svg?token=ZaEiSnjDVx3CsHkJja6Q&branch=master)](https://app.travis-ci.com/nsrr/pvdomics-data-dictionary)
 
 ### Exports
 
-The PVDomics data dictionary can be exported to CSV by typing:
+The PVDOMICS data dictionary can be exported to CSV by typing:
 
 ```
 spout export
@@ -43,4 +43,4 @@ approach for changing version numbers uses a variation on
 [Semantic Versioning](http://semver.org).
 
 A full list of changes for each version can be viewed in the
-[CHANGELOG](https://github.com/nsrr/pvdomics-data-dictionary-data-dictionary/blob/master/CHANGELOG.md).
+[CHANGELOG](https://github.com/nsrr/pvdomics-data-dictionary/blob/master/CHANGELOG.md).
